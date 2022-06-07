@@ -237,6 +237,7 @@ body {
     border-radius: 50%;
     background: #5534A5;
     transition: height 0.3s, width 0.3s;
+    cursor: pointer;
 }
 
 .main__iKnow-item:hover {
@@ -276,6 +277,7 @@ body {
     background: transparent;
     transition: margin-left .3s;
     filter: drop-shadow(0 0 2px rgba(255, 255, 255, 0.25));
+    cursor: pointer;
 }
 
 .menu__btn0 {
@@ -329,6 +331,93 @@ body {
 .menu__btn3.menu__btn_active {
     background: url("./images/day/menu/contact.svg") no-repeat center;
     background-size: contain;
+}
+
+/*navigation styles */
+
+.nav {
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    background: rgba(85, 52, 165, 0.5);
+    backdrop-filter: blur(49px);
+    z-index: 200;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav__item {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: calc((26px + .5vw) * 2);
+    line-height: 78px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: letter-spacing 0.3s, color 0.3s;
+}
+
+.nav__item:hover {
+    letter-spacing: 10px;
+    color: #DDDDDD;
+}
+
+.nav__item:hover::before {
+    content: '';
+    width: 50px;
+    height: 4px;
+    border-radius: 5px;
+    background: #ffffff;
+    margin-right: 100px;
+    opacity: 1;
+}
+
+.nav__item:hover::after {
+    content: '';
+    width: 50px;
+    height: 4px;
+    border-radius: 5px;
+    background: #ffffff;
+    margin-left: 100px;
+    opacity: 1;
+}
+
+.nav__item::before {
+    content: '';
+    transition: 0.3s;
+    opacity: 0;
+}
+
+.nav__item::after {
+    content: '';
+    transition: 0.3s;
+    opacity: 0;
+}
+
+.nav__tumbler {
+    height: 50px;
+    width: 100px;
+    padding: 5px;
+    background: #F4F4F4;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.nav__tumbler-point {
+    height: 40px;
+    width: 40px;
+    background: #A85CF9 url("./images/day/menu/switcher.svg") no-repeat center;
+    background-size: 30px;
+    border-radius: 50%;
 }
 
 /*footer styles*/
