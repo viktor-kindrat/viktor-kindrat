@@ -4,6 +4,10 @@ I am a sixteen year old web developer located in Ukraine 🇺🇦. I started my 
 
 [My portfolio (in dev) 💻](https://victor-kindrat.netlify.app/)
 
+## My code time for last month 🔥
+
+<a href="https://wakatime.com"><img src="https://wakatime.com/share/@36fc7641-7da0-41a7-8648-c61da8a226f7/27180129-4000-48f3-a407-cd5e3d0b2755.png" /></a>
+
 ## You can find me there 👇🏻
 > Linked in: https://www.linkedin.com/in/viktor-kindrat/
 
