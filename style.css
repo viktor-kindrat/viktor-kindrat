@@ -3,3 +3,187 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.wrapper {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.page {
+    padding: 50px;
+}
+
+.header {
+    width: 100%;
+}
+
+.header__text {
+    width: 100%;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: calc(26px + .5vw);
+    line-height: 49px;
+    text-transform: uppercase;
+    color: #5534A5;
+}
+
+.main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.main__welcome {
+    width: 100%;
+    min-height: calc(100vh - 150px);
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.main__headline {
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: calc((26px + .5vw) * 2 - 2px);
+    line-height: 102px;
+    color: #4B7BE5;
+    z-index: 1;
+}
+
+.main__changer {
+    text-decoration: underline 3px;
+    color: #5534A5;
+}
+
+.main__wave {
+    height: 75px;
+    width: 75px;
+    display: inline-block;
+    background: url("./images/universal/main/hand.png") no-repeat center;
+    background-size: contain;
+}
+
+.main__social-medias {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    z-index: 1;
+}
+
+.main__link {
+    height: calc((31px + .5vw) * 2);
+    width: calc((31px + .5vw) * 2);
+    border-radius: 15px;
+    background: #5534A5;
+    margin-right: 50px;
+}
+
+.main__link1 {
+    background: url("./images/day/main/instagram.svg") no-repeat center;
+    background-size: cover;
+}
+.main__link2 {
+    background: url("./images/day/main/telegram.svg") no-repeat center;
+    background-size: cover;
+}
+.main__link3 {
+    background: url("./images/day/main/github.svg") no-repeat center;
+    background-size: cover;
+}
+
+.main__link:last-child {
+    margin-right: 0;
+}
+
+.main__me {
+    width: 50vw;
+    height: calc(100vh - 150px);
+    background: url("./images/day/main/figure.svg") no-repeat 100% center;
+    -webkit-background-size: contain;
+    background-size: contain;
+    position: absolute;
+    right: 150px;
+    z-index: 0;
+}
+
+.menu {
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 50px 50px 50px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 100;
+}
+
+.menu__group {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu__btn {
+    height: 40px;
+    width: 40px;
+    border: none;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.menu__btn0 {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.menu__dash {
+    width: 100%;
+    height: 3px;
+    border-radius: 3px;
+    display: block;
+    background: #4B7BE5;
+}
+
+.menu__btn1 {
+    background: url("./images/day/menu/home.svg") no-repeat center;
+    background-size: contain;
+}
+
+.menu__btn2 {
+    background: url("./images/day/menu/portfolio.svg") no-repeat center;
+    background-size: contain;
+    margin: 8vh 0;
+}
+
+.menu__btn3 {
+    background: url("./images/day/menu/contact.svg") no-repeat center;
+    background-size: contain;
+}
+
+.menu__btn1.menu__btn_active {
+    background: url("./images/day/menu/home-active.svg") no-repeat center;
+    background-size: contain;
+}
+
+.menu__btn2.menu__btn_active {
+    background: url("./images/day/menu/portfolio.svg") no-repeat center;
+    background-size: contain;
+    margin: 8vh 0;
+}
+
+.menu__btn3.menu__btn_active {
+    background: url("./images/day/menu/contact.svg") no-repeat center;
+    background-size: contain;
+}

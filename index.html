@@ -8,10 +8,13 @@
     <title>Victor Kindrat</title>
     <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="wrapper">
+<div class="wrapper wrapper_day">
     <div class="page">
         <header class="header">
             <p class="header__text">V.Kindrat</p>
@@ -21,13 +24,14 @@
                 <div class="main__welcome">
                     <h1 class="main__headline">
                         Hello! <br>
-                        I'm <span class="main__changer">Victor Kindrat</span>
+                        I'm <span class="main__changer">Victor Kindrat</span> <span class="main__wave"></span>
                     </h1>
                     <div class="main__social-medias">
                         <a href="#" class="main__link main__link1"></a>
                         <a href="#" class="main__link main__link2"></a>
                         <a href="#" class="main__link main__link3"></a>
                     </div>
+                    <div class="main__me"></div>
                 </div>
                 <div class="main__about-me">
                     <h2 class="main__headline_2">About me</h2>
@@ -76,9 +80,12 @@
         </footer>
     </div>
     <nav class="menu">
-        <div class="menu__btn menu__btn0"></div>
+        <button class="menu__btn menu__btn0">
+            <span class="menu__dash menu__dash1"></span><span class="menu__dash menu__dash2"></span><span
+                class="menu__dash menu__dash3"></span>
+        </button>
         <div class="menu__group">
-            <button class="menu__btn menu__btn1"></button>
+            <button class="menu__btn menu__btn_active menu__btn1"></button>
             <button class="menu__btn menu__btn2"></button>
             <button class="menu__btn menu__btn3"></button>
         </div>
