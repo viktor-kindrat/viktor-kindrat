@@ -8,8 +8,11 @@ fillMySkills(20);
 
 $('#menu__open-nav').click(function () {
     $('#nav').css('left', '0');
+    $('#content-wrapper').css('marginLeft', '-100vw');
+    $('.main__me').css('left', '-100vw');
 })
-
 $('.nav__item').click(function () {
     $('#nav').css('left', '100vw');
+    $('#content-wrapper').css('marginLeft', '0');
+    $('.main__me').css('left', '-190px');
 })

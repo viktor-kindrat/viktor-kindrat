@@ -26,6 +26,8 @@ body {
 
 .content-wrapper {
     padding: 50px 150px 50px 50px;
+    /*position: relative;*/
+    transition: 0.3s;
 }
 
 .wrapper {
@@ -62,7 +64,8 @@ body {
     min-height: calc(100vh - 150px);
     padding: 50px 0;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: center;
     justify-content: center;
     margin-bottom: 50px;
 }
@@ -80,6 +83,10 @@ body {
 .main__changer {
     text-decoration: underline 3px;
     color: #5534A5;
+}
+
+.main__txt {
+    width: 50%;
 }
 
 .main__wave {
@@ -129,14 +136,14 @@ body {
 }
 
 .main__me {
-    width: 50vw;
-    height: calc(100vh - 150px);
+    width: 50%;
+    height: calc(100vh - 200px);
     background: url("./images/day/main/figure.svg") no-repeat 100% center;
     -webkit-background-size: contain;
     background-size: contain;
-    position: absolute;
-    right: 150px;
-    z-index: 0;
+    position: relative;
+    left: -190px;
+    transition: left 0.3s;
 }
 
 .main__about-me {
