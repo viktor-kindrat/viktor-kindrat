@@ -83,6 +83,12 @@
     border-radius: 15px;
     background: #5534A5;
     margin-right: 50px;
+    position: relative;
+    transition: margin-top 0.3s;
+}
+
+.main__link:hover {
+    margin-top: -10px;
 }
 
 .main__link1 {
@@ -137,6 +143,7 @@
     outline: none;
     background: transparent;
     cursor: pointer;
+    transition: margin-left .3s;
 }
 
 .menu__btn0 {
@@ -146,6 +153,10 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+}
+
+.menu__btn:hover {
+    margin-left: -5px;
 }
 
 .menu__dash {
