@@ -4,6 +4,22 @@
     box-sizing: border-box;
 }
 
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
 body {
     overflow-x: hidden;
 }
@@ -258,7 +274,6 @@ body {
     border: none;
     outline: none;
     background: transparent;
-    cursor: pointer;
     transition: margin-left .3s;
     filter: drop-shadow(0 0 2px rgba(255, 255, 255, 0.25));
 }
@@ -351,7 +366,6 @@ body {
     color: #DDDDDD;
     background: transparent;
     border: none;
-    cursor: pointer;
     position: relative;
     transition: letter-spacing 0.3s;
 }
