@@ -6,8 +6,6 @@ I am a sixteen year old web developer located in Ukraine 🇺🇦. I started my 
 ## You can find me there 👇🏻
 > Linked in: https://www.linkedin.com/in/viktor-kindrat/
 
-> Github: https://github.com/victor-kindrat
-
 > Instagram: https://instagram.com/victor_kindrat?utm_medium=copy_link
 
 > Telegram: https://web.telegram.org/#/im?p=@vegeran
