@@ -345,6 +345,12 @@ body {
     background: transparent;
     border: none;
     cursor: pointer;
+    position: relative;
+    transition: letter-spacing 0.3s;
+}
+
+.footer__nav-item:hover {
+    letter-spacing: 3px;
 }
 
 .footer__copy {
@@ -357,4 +363,9 @@ body {
     align-items: center;
     color: #DDDDDD;
     align-self: flex-end;
+}
+
+.footer__nav-item_active {
+    font-weight: 900;
+    color: #ffffff;
 }
