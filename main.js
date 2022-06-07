@@ -5,3 +5,11 @@ function fillMySkills(count) {
     }
 }
 fillMySkills(20);
+
+$('#menu__open-nav').click(function () {
+    $('#nav').css('left', '0');
+})
+
+$('.nav__item').click(function () {
+    $('#nav').css('left', '100vw');
+})
