@@ -8,6 +8,41 @@ function fillMySkills(count) {
 }
 fillMySkills(20);
 
+function switchPage(page) {
+    switch (page) {
+        case 'main':
+            $('.footer__nav-item').attr('class', 'footer__nav-item');
+            $('#footer__nav-item1').attr('class', 'footer__nav-item footer__nav-item_active');
+            $('.menu__btn1').attr('class', 'menu__btn menu__btn1 menu__btn_active');
+            $('.menu__btn2').attr('class', 'menu__btn menu__btn2');
+            $('.menu__btn3').attr('class', 'menu__btn menu__btn3');
+            $('.main').css('display', 'flex');
+            $('.projects').css('display', 'none');
+            $('.contacts').css('display', 'none');
+            break;
+        case 'projects':
+            $(`.footer__nav-item`).attr('class', 'footer__nav-item');
+            $('#footer__nav-item2').attr('class', 'footer__nav-item footer__nav-item_active')
+            $(".menu__btn2").attr('class', 'menu__btn menu__btn2 menu__btn_active');
+            $(".menu__btn1").attr('class', 'menu__btn menu__btn1');
+            $(".menu__btn3").attr('class', 'menu__btn menu__btn3');
+            $(".projects").css('display', 'flex');
+            $(".main").css('display', 'none');
+            $(".contacts").css('display', 'none');
+            break;
+        case 'contacts':
+            $(".footer__nav-item").attr('class', 'footer__nav-item');
+            $('#footer__nav-item3').attr('class', 'footer__nav-item footer__nav-item_active')
+            $(`.menu__btn3`).attr('class', 'menu__btn menu__btn3 menu__btn_active');
+            $(`.menu__btn1`).attr('class', 'menu__btn menu__btn1');
+            $(`.menu__btn2`).attr('class', 'menu__btn menu__btn2');
+            $(`.contacts`).css('display', 'flex');
+            $(`.main`).css('display', 'none');
+            $(`.projects`).css('display', 'none');
+            break;
+    }
+}
+
 $('#menu__open-nav').click(function () {
     $('#nav').css('left', '0');
     $('#content-wrapper').css('marginLeft', '-100vw');
@@ -38,4 +73,14 @@ $('.projects__item').mouseleave(function () {
     $(this).children().css({
         'opacity': '0'
     })
+})
+
+$('#nav__item_main').click(function () {
+    switchPage('main');
+})
+$('#nav__item_projects').click(function () {
+    switchPage('projects');
+})
+$('#nav__item_contact').click(function () {
+    switchPage('contacts');
 })

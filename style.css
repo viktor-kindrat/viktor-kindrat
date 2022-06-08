@@ -57,7 +57,7 @@ body {
 .main, .projects {
     width: 100%;
     min-height: 100vh;
-    display: none;
+    display: flex;
     flex-direction: column;
 }
 
@@ -262,7 +262,7 @@ body {
 /*projects style*/
 
 .projects {
-    display: flex;
+    display: none;
 }
 
 .projects__headline_2-purple {
@@ -521,13 +521,13 @@ body {
 }
 
 .menu__btn2.menu__btn_active {
-    background: url("./images/day/menu/portfolio.svg") no-repeat center;
+    background: url("./images/day/menu/portfolio-active.svg") no-repeat center;
     background-size: contain;
     margin: 8vh 0;
 }
 
 .menu__btn3.menu__btn_active {
-    background: url("./images/day/menu/contact.svg") no-repeat center;
+    background: url("./images/day/menu/contact-active.svg") no-repeat center;
     background-size: contain;
 }
 
