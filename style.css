@@ -375,6 +375,79 @@ body {
     width: 15px;
 }
 
+.projects__place {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+
+.projects__item {
+    min-width: 600px;
+    width: calc(50% - 25px);
+    height: 465px;
+    background: #000000;
+    border-radius: 10px;
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.projects__item_figma::before {
+    content: '';
+    height: 50px;
+    width: 50px;
+    background: url("./images/universal/portfolio/figma.svg") no-repeat center;
+    -webkit-background-size: contain;
+    background-size: contain;
+    display: block;
+    position: relative;
+    top: 20px;
+    left: calc(100% - 70px);
+    margin-right: 20px;
+}
+
+.projects__item_github::before {
+    content: '';
+    height: 50px;
+    width: 50px;
+    background: url("./images/universal/portfolio/github.svg") no-repeat center;
+    -webkit-background-size: contain;
+    background-size: contain;
+    display: block;
+    position: relative;
+    top: 20px;
+    left: calc(100% - 70px);
+    margin-right: 20px;
+}
+
+.projects__view-btn {
+    width: 200px;
+    height: 200px;
+    background: #5534A5;
+    border-radius: 50%;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 65px;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    cursor: pointer;
+    opacity: 0;
+    transition: 0.3s;
+    position: relative;
+    left: calc(50% - 100px);
+    top: calc(50% - 150px);
+}
+
+.projects__view-btn:hover {
+    background: #ffffff;
+    color: #5534A5;
+}
     /*menu buttons style */
 
 .menu {

@@ -26,4 +26,16 @@ $('#projects__filter-btn').click(function () {
         filterBtnStatus = 'disabled'
     }
     $('.projects__filter-group').attr('class', 'projects__filter-group projects__filter-group_' + filterBtnStatus);
+});
+
+$(".projects__item").mouseenter(function () {
+    $(this).children().css({
+        'opacity': '1'
+    })
+})
+
+$('.projects__item').mouseleave(function () {
+    $(this).children().css({
+        'opacity': '0'
+    })
 })
