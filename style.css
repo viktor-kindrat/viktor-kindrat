@@ -52,10 +52,12 @@ body {
     color: #5534A5;
 }
 
-.main {
+/*main styles */
+
+.main, .projects {
     width: 100%;
     min-height: 100vh;
-    display: flex;
+    display: none;
     flex-direction: column;
 }
 
@@ -143,7 +145,7 @@ body {
     background-size: contain;
     position: relative;
     left: -190px;
-    transition: left 0.3s;
+    transition: left 0.5s;
 }
 
 .main__about-me {
@@ -161,7 +163,7 @@ body {
     z-index: 0;
 }
 
-.main__headline_2 {
+.main__headline_2, .projects__headline_2 {
     font-family: 'Nunito', sans-serif;
     font-style: normal;
     font-weight: 900;
@@ -252,9 +254,50 @@ body {
     width: 160px;
 }
 
-.main__headline_2-purple {
+.main__headline_2-purple, .projects__headline_2-purple {
     color: #5534A5;
     text-align: center;
+}
+
+/*projects style*/
+
+.projects {
+    display: flex;
+}
+
+.projects__headline_2-purple {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.projects__row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+
+.projects__counter {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: calc((26px + .5vw) * 2 - 8px);
+    line-height: 78px;
+    text-transform: uppercase;
+    color: #5534A5;;
+}
+
+.projects__title {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: calc(18px + .5vw);
+    line-height: 39px;
+    text-align: center;
+    color: #A85CF9;
 }
 
 /*menu buttons style */
