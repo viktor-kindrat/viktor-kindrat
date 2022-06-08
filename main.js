@@ -1,3 +1,5 @@
+let filterBtnStatus = 'disabled';
+
 function fillMySkills(count) {
     for (let i = 1; i!== count + 1; i++) {
         $('.main__iKnow-container').append('<div class="main__iKnow-item main__iKnow-item'+i+'"></div>');
@@ -15,4 +17,13 @@ $('.nav__item').click(function () {
     $('#nav').css('left', '100vw');
     $('#content-wrapper').css('marginLeft', '0');
     $('.main__me').css('left', '-190px');
+})
+
+$('#projects__filter-btn').click(function () {
+    if (filterBtnStatus === 'disabled') {
+        filterBtnStatus = 'enabled'
+    } else if (filterBtnStatus === 'enabled') {
+        filterBtnStatus = 'disabled'
+    }
+    $('.projects__filter-group').attr('class', 'projects__filter-group projects__filter-group_' + filterBtnStatus);
 })
