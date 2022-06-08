@@ -33,6 +33,42 @@ let projects = [{
     image: 'https://files.fm/thumb_show.php?i=7x7q8bh46',
     type: 'figma',
     link: 'https://www.figma.com/file/NrGyTXWFNBYY7yanDOBRPX/Rocket-online-traveler'
+}, {
+    name: 'Guess the number game',
+    image: 'https://files.fm/thumb_show.php?i=rbdbenq3j',
+    type: 'github',
+    link: 'https://victor-kindrat.github.io/Guess-the-number-game/',
+    viewCode: 'https://github.com/victor-kindrat/Guess-the-number-game'
+}, {
+    name: 'What file type is it',
+    image: 'https://files.fm/thumb_show.php?i=a4r89888x',
+    type: 'github',
+    link: 'https://victor-kindrat.github.io/what-file-type-is-it/',
+    viewCode: 'https://github.com/victor-kindrat/what-file-type-is-it'
+}, {
+    name: 'Text reader',
+    image: 'https://files.fm/thumb_show.php?i=dayefmerw',
+    type: 'github',
+    link: 'https://victor-kindrat.github.io/textReader/',
+    viewCode: 'https://github.com/victor-kindrat/textReader'
+}, {
+    name: 'API weather',
+    image: 'https://fv1-6.failiem.lv/thumb_show.php?i=ga7sjd33q&view',
+    type: 'github',
+    link: 'https://vkindratapiweather.netlify.app/',
+    viewCode: 'https://github.com/victor-kindrat/APIWeather'
+}, {
+    name: 'Cenzor',
+    image: 'https://files.fm/thumb_show.php?i=h6bwd3w4g',
+    type: 'github',
+    link: 'https://victor-kindrat.github.io/Cenzor/',
+    viewCode: 'https://github.com/victor-kindrat/Cenzor'
+}, {
+    name: 'Foodore switcher',
+    image: 'https://files.fm/thumb_show.php?i=bx2hjfucz',
+    type: 'github',
+    link: 'https://foodore-switcher.netlify.app/',
+    viewCode: 'https://github.com/victor-kindrat/Foodore'
 }];
 
 let projectsCount = projects.length;
