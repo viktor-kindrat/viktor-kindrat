@@ -2,7 +2,7 @@
 
 I am a sixteen year old web developer located in Ukraine 🇺🇦. I started my career in web development by studying at the Creator IT Academy. I started my way in IT only in 2021, but I already have a number of projects that are worth noting. My portfolio includes both HTML / CSS, web design projects and JS-based projects.
 
-[My portfolio (in dev) 💻](https://victor-kindrat.netlify.app/)
+[My portfolio (in dev 🛠) 💻](https://victor-kindrat.netlify.app/)
 
 ## My code time for last month 👇🏻🔥
 
