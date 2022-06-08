@@ -1,5 +1,53 @@
 let filterBtnStatus = 'disabled';
 
+let projects = [{
+    name: 'Pelio - finance dashboard',
+    image: 'https://fv9-5.failiem.lv/thumb_show.php?i=9kju3bgur&view',
+    type: 'github',
+    link: 'https://pelio-dashboard.netlify.app/',
+    viewCode: 'https://github.com/victor-kindrat/pelio-dashboard'
+}, {
+    name: 'Happy pet',
+    image: 'https://files.fm/thumb_show.php?i=25vm64gfj',
+    type: 'figma',
+    link: 'https://www.figma.com/file/j5m3chq5hPxhstqWvvR8Wc/Happy-pat'
+}, {
+    name: 'Rocket travel',
+    image: 'https://files.fm/thumb_show.php?i=vqbuxe9jb',
+    type: 'github',
+    link: 'https://victor-kindrat.github.io/Rocket-Travel/',
+    viewCode: 'https://github.com/victor-kindrat/Rocket-Travel'
+}, {
+    name: 'Paint pictures',
+    image: 'https://files.fm/thumb_show.php?i=2h2q6zd9x',
+    type: 'github',
+    link: 'https://paintpictures.netlify.app/',
+    viewCode: 'https://github.com/victor-kindrat/Paint-pictures'
+}, {
+    name: 'MNTN landing',
+    image: 'https://files.fm/thumb_show.php?i=hf2pwpzkw',
+    type: 'github',
+    link: 'https://victor-kindrat.github.io/MNTN-Landing/',
+    viewCode: 'https://github.com/victor-kindrat/MNTN-Landing'
+}, {
+    name: 'Rocket - online traveler',
+    image: 'https://files.fm/thumb_show.php?i=7x7q8bh46',
+    type: 'figma',
+    link: 'https://www.figma.com/file/NrGyTXWFNBYY7yanDOBRPX/Rocket-online-traveler'
+}]
+
+for (let i = 0; i !== projects.length; i++) {
+    $('.projects__place').append(`<div class="projects__item projects__item${i} projects__item_${projects[i].type}">\n` +
+                                        `<button class="projects__view-btn projects__view-btn${i}">View</button>\n` +
+                                 `</div>`);
+    $('.projects__item' + i).css({
+        'background': '#eeeeee url("' + projects[i].image + '") no-repeat center 0%',
+        'backgroundSize': 'cover'
+    })
+}
+
+$('.info').fadeOut(0)
+
 function fillMySkills(count) {
     for (let i = 1; i!== count + 1; i++) {
         $('.main__iKnow-container').append('<div class="main__iKnow-item main__iKnow-item'+i+'"></div>');
@@ -64,12 +112,18 @@ $('#projects__filter-btn').click(function () {
 });
 
 $(".projects__item").mouseenter(function () {
+    $(this).css({
+        'filter': 'grayscale(0)'
+    })
     $(this).children().css({
         'opacity': '1'
     })
 })
 
 $('.projects__item').mouseleave(function () {
+    $(this).css({
+        'filter': 'grayscale(0.8)'
+    })
     $(this).children().css({
         'opacity': '0'
     })
@@ -110,3 +164,21 @@ $('#footer__nav-item3').click(function () {
     }, 500)
 })
 
+$('.projects__view-btn').click(function () {
+    let classes = $(this).attr('class');
+    let index = classes.slice(classes.lastIndexOf('_view-btn') + 9, classes.length);
+    $('.info').fadeIn(300);
+    let item = projects[index];
+    console.log(item)
+    $('#info__headline_name').html(item.name);
+    $('.info__btn_view').attr('href', item.viewCode);
+    $('.info__btn_open').attr('href', item.link);
+    $('.info__image').css({
+        'background': 'url("' + item.image + '") no-repeat center 0%',
+        'backgroundSize': 'cover'
+    })
+})
+
+$('.info__close').click(function (){
+    $('.info').fadeOut(300);
+})
