@@ -1,5 +1,4 @@
 let filterBtnStatus = 'disabled';
-
 let projects = [{
     name: 'Pelio - finance dashboard',
     image: 'https://fv9-5.failiem.lv/thumb_show.php?i=9kju3bgur&view',
@@ -34,7 +33,23 @@ let projects = [{
     image: 'https://files.fm/thumb_show.php?i=7x7q8bh46',
     type: 'figma',
     link: 'https://www.figma.com/file/NrGyTXWFNBYY7yanDOBRPX/Rocket-online-traveler'
-}]
+}];
+
+let projectsCount = projects.length;
+let designCount = 0;
+let pagesCount = 0;
+let counter = {
+    all: 0,
+    designs: 0,
+    pages: 0
+}
+for (let i = 0; i!==projects.length; i++) {
+    if(projects[i].type === 'figma') {
+        designCount++;
+    } else if (projects[i].type === 'github') {
+        pagesCount++;
+    }
+}
 
 for (let i = 0; i !== projects.length; i++) {
     $('.projects__place').append(`<div class="projects__item projects__item${i} projects__item_${projects[i].type}">\n` +
@@ -59,6 +74,9 @@ fillMySkills(20);
 function switchPage(page) {
     switch (page) {
         case 'main':
+            $('#project__counter_projects').text('0');
+            $('#project__counter_designs').text('0');
+            $('#project__counter_pages').text('0');
             $('.footer__nav-item').attr('class', 'footer__nav-item');
             $('#footer__nav-item1').attr('class', 'footer__nav-item footer__nav-item_active');
             $('.menu__btn1').attr('class', 'menu__btn menu__btn1 menu__btn_active');
@@ -69,6 +87,37 @@ function switchPage(page) {
             $('.contacts').css('display', 'none');
             break;
         case 'projects':
+            setTimeout(function (){
+                let x = setInterval(function () {
+                    if (counter.all !== projectsCount + 1) {
+                        $('#project__counter_projects').text(counter.all)
+                        counter.all++;
+                    } else {
+                        clearInterval(x);
+                        counter.all = 0;
+                    }
+                }, 200);
+
+                let y = setInterval(function () {
+                    if (counter.designs !== designCount + 1) {
+                        $('#project__counter_designs').text(counter.designs)
+                        counter.designs++;
+                    } else {
+                        clearInterval(y);
+                        counter.designs = 0;
+                    }
+                }, 200);
+
+                let z = setInterval(function () {
+                    if (counter.pages !== pagesCount + 1) {
+                        $('#project__counter_pages').text(counter.pages)
+                        counter.pages++;
+                    } else {
+                        clearInterval(z);
+                        counter.pages = 0;
+                    }
+                }, 200);
+            }, 300)
             $(`.footer__nav-item`).attr('class', 'footer__nav-item');
             $('#footer__nav-item2').attr('class', 'footer__nav-item footer__nav-item_active')
             $(".menu__btn2").attr('class', 'menu__btn menu__btn2 menu__btn_active');
@@ -79,6 +128,9 @@ function switchPage(page) {
             $(".contacts").css('display', 'none');
             break;
         case 'contacts':
+            $('#project__counter_projects').text('0');
+            $('#project__counter_designs').text('0');
+            $('#project__counter_pages').text('0');
             $(".footer__nav-item").attr('class', 'footer__nav-item');
             $('#footer__nav-item3').attr('class', 'footer__nav-item footer__nav-item_active')
             $(`.menu__btn3`).attr('class', 'menu__btn menu__btn3 menu__btn_active');
@@ -169,7 +221,8 @@ $('.projects__view-btn').click(function () {
     let index = classes.slice(classes.lastIndexOf('_view-btn') + 9, classes.length);
     $('.info').fadeIn(300);
     let item = projects[index];
-    console.log(item)
+    console.log(item);
+    $('.info').attr('class', 'info info_' + item.type)
     $('#info__headline_name').html(item.name);
     $('.info__btn_view').attr('href', item.viewCode);
     $('.info__btn_open').attr('href', item.link);
