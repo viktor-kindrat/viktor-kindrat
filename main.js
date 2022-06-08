@@ -45,12 +45,12 @@ function switchPage(page) {
 
 $('#menu__open-nav').click(function () {
     $('#nav').css('left', '0');
-    $('#content-wrapper').css('marginLeft', '-100vw');
+    $('#content-wrapper').css('left', '-100vw');
     $('.main__me').css('left', '-100vw');
 })
 $('.nav__item').click(function () {
     $('#nav').css('left', '100vw');
-    $('#content-wrapper').css('marginLeft', '0');
+    $('#content-wrapper').css('left', '0');
     $('.main__me').css('left', '-190px');
 })
 
@@ -84,3 +84,29 @@ $('#nav__item_projects').click(function () {
 $('#nav__item_contact').click(function () {
     switchPage('contacts');
 })
+
+$('#footer__nav-item1').click(function () {
+    $('.page').css('right', '100vw');
+    setTimeout(function () {
+        window.scrollTo(0, 0)
+        $('.page').css('right', '0');
+        switchPage('main');
+    }, 500)
+})
+$('#footer__nav-item2').click(function () {
+    $('.page').css('right', '100vw');
+    setTimeout(function () {
+        window.scrollTo(0, 0)
+        $('.page').css('right', '0');
+        switchPage('projects');
+    }, 500)
+})
+$('#footer__nav-item3').click(function () {
+    $('.page').css('right', '100vw');
+    setTimeout(function () {
+        window.scrollTo(0, 0)
+        $('.page').css('right', '0');
+        switchPage('contacts');
+    }, 500)
+})
+
