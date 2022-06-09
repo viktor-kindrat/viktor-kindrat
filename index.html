@@ -8,6 +8,7 @@
     <title>Victor Kindrat</title>
     <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
@@ -25,7 +26,7 @@
                     <div class="main__txt">
                         <h1 class="main__headline">
                             Hello! <br>
-                            I'm <span class="main__changer">Victor Kindrat </span> <span class="main__wave"></span>
+                            I'm <span class="main__changer"> </span> <span class="main__wave"></span>
                         </h1>
                         <div class="main__social-medias">
                             <a href="https://instagram.com/victor_kindrat?utm_medium=copy_link" target="_blank" class="main__link main__link1"></a>
@@ -187,6 +188,17 @@
         <div class="nav__item" id="nav__item_contact">Contact me</div>
     </nav>
 </div>
+<script>
+    var options = {
+        strings: ['', 'Victor Kindrat', 'web developer'],
+        typeSpeed: 40,
+        backDelay: 3500,
+        loop: true,
+        loopCount: Infinity,
+    };
+
+    var typed = new Typed('.main__changer', options);
+</script>
 <script src="main.js"></script>
 </body>
 </html>

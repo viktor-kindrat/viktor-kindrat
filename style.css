@@ -108,6 +108,13 @@ body {
     color: #5534A5;
 }
 
+.wrapper_night .typed-cursor {
+    color: #FFFFFF;
+}
+
+.typed-cursor {
+    color: #5534A5;
+}
 .main__txt {
     width: 50%;
 }
@@ -139,6 +146,7 @@ body {
 
 .main__link:hover {
     margin-top: -10px;
+    box-shadow: 0 0 17px 3px rgba(85, 52, 165, 0.5);
 }
 
 .wrapper_night .main__link:hover {
