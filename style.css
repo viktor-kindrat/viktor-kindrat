@@ -725,6 +725,9 @@ body {
     display: none;
 }
 
+.wrapper_night .contacts__headline_2 {
+    color: #ffffff;
+}
 .contacts__headline_2 {
     width: 100%;
     display: flex;
@@ -748,6 +751,9 @@ body {
     justify-content: space-around;
 }
 
+.wrapper_night .contacts__item {
+    background-color: #3E2C41;
+}
 .contacts__item {
     width: 40%;
     background: #5534A5 url("./images/universal/contact/mail.svg") no-repeat 20px 20px;
@@ -775,6 +781,22 @@ body {
 
 .contacts__row:nth-child(3) .contacts__item:nth-child(1) {
     background: #5534A5 url("./images/universal/contact/instagram.svg") no-repeat 20px 20px;
+}
+
+.wrapper_night .contacts__row:nth-child(1) .contacts__item:nth-child(2) {
+    background: #3E2C41 url("./images/universal/contact/telegram.svg") no-repeat 20px 20px;
+}
+
+.wrapper_night .contacts__row:nth-child(2) .contacts__item:nth-child(1) {
+    background: #3E2C41 url("./images/universal/contact/linkedin.svg") no-repeat 20px 20px;
+}
+
+.wrapper_night .contacts__row:nth-child(2) .contacts__item:nth-child(2) {
+    background: #3E2C41 url("./images/universal/contact/phone.svg") no-repeat 20px 20px;
+}
+
+.wrapper_night .contacts__row:nth-child(3) .contacts__item:nth-child(1) {
+    background: #3E2C41 url("./images/universal/contact/instagram.svg") no-repeat 20px 20px;
 }
 
 .contacts__name {
