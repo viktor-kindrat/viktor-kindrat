@@ -6,7 +6,7 @@ I am a sixteen year old web developer located in Ukraine 🇺🇦. I started my 
 
 ## My code time for last month 👇🏻🔥
 
-<a href="https://wakatime.com"><img src="https://wakatime.com/share/@36fc7641-7da0-41a7-8648-c61da8a226f7/27180129-4000-48f3-a407-cd5e3d0b2755.png" /></a>
+<a href="https://wakatime.com"><img src="https://wakatime.com/share/@36fc7641-7da0-41a7-8648-c61da8a226f7/a84f64a1-64c5-4038-8038-d7a4053feb5a.png" /></a>
 
 ## My GitHub activity:
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=victor-kindrat&theme=blueberry_duo)](https://git.io/streak-stats)
