@@ -4,71 +4,96 @@ let projects = [{
     image: 'https://fv9-5.failiem.lv/thumb_show.php?i=9kju3bgur&view',
     type: 'github',
     link: 'https://pelio-dashboard.netlify.app/',
-    viewCode: 'https://github.com/victor-kindrat/pelio-dashboard'
+    viewCode: 'https://github.com/victor-kindrat/pelio-dashboard',
+    description: `Pelio - your finance dashboard.
+                  Figma to HTML project.`,
+    technologies: ['HTML', 'CSS', "JS", 'Media query', 'Animations', 'LocalStorage', 'Password chipper', 'Chart.js', 'Your statistic counter']
 }, {
     name: 'Happy pet',
     image: 'https://files.fm/thumb_show.php?i=25vm64gfj',
     type: 'figma',
-    link: 'https://www.figma.com/file/j5m3chq5hPxhstqWvvR8Wc/Happy-pat'
+    link: 'https://www.figma.com/file/j5m3chq5hPxhstqWvvR8Wc/Happy-pat',
+    description: `Happy pet - pet shop web page. Your friend with delivery! My first design`,
+    technologies: ['Figma prototypes', '.png images', 'Vector', 'Figures', 'Shadows', 'Some cute animals 🐶 😸']
 }, {
     name: 'Rocket travel',
     image: 'https://files.fm/thumb_show.php?i=vqbuxe9jb',
     type: 'github',
     link: 'https://victor-kindrat.github.io/Rocket-Travel/',
-    viewCode: 'https://github.com/victor-kindrat/Rocket-Travel'
+    viewCode: 'https://github.com/victor-kindrat/Rocket-Travel',
+    description: `This is my biggest project designed in Creator IT Academy, which includes about 90% of the technology I studied the day before. The theme of the project is a travel agency that organizes the most popular tours around the world. The main motto of this company - your journey - is our work.`,
+    technologies: ['HTML', 'CSS', 'Media query', 'Animations', 'Preloader', 'Bootstrap', 'IFrame', 'Multipage', 'Flexbox', 'HTML5 features', 'CSS parallax effect', 'More than 3 fonts']
 }, {
     name: 'Paint pictures',
     image: 'https://files.fm/thumb_show.php?i=2h2q6zd9x',
     type: 'github',
     link: 'https://paintpictures.netlify.app/',
-    viewCode: 'https://github.com/victor-kindrat/Paint-pictures'
+    viewCode: 'https://github.com/victor-kindrat/Paint-pictures',
+    description: `JS project. Сustom copy of all known paint for PCs and smartphones developed with JS canvas.`,
+    technologies: ['HTML', 'CSS', 'JS', 'Canvas JS', 'Colors change', 'Ability to paint a line', 'Rubber brush', 'Reply function', 'Menu close by double click']
 }, {
     name: 'MNTN landing',
     image: 'https://files.fm/thumb_show.php?i=hf2pwpzkw',
     type: 'github',
     link: 'https://victor-kindrat.github.io/MNTN-Landing/',
-    viewCode: 'https://github.com/victor-kindrat/MNTN-Landing'
+    viewCode: 'https://github.com/victor-kindrat/MNTN-Landing',
+    description: `Website landing is created on a figma layout with a parallax effect. HTML/CSS only ⚡`,
+    technologies: ['HTML', 'CSS', 'Parallax effect', 'Anchor to elements', 'Social medias']
 }, {
     name: 'Rocket - online traveler',
     image: 'https://files.fm/thumb_show.php?i=7x7q8bh46',
     type: 'figma',
-    link: 'https://www.figma.com/file/NrGyTXWFNBYY7yanDOBRPX/Rocket-online-traveler'
+    link: 'https://www.figma.com/file/NrGyTXWFNBYY7yanDOBRPX/Rocket-online-traveler',
+    description: `A prototype of my future project. Application for people who like to sit at home and see something exciting. With this app, you will be able to see all attractions from all whole of the world and make a travel without leaving a house.`,
+    technologies: ['Vectors', 'Figures', 'Masks', '.png images', 'Lorem', 'Iconify plugin', '3 different fonts', 'Gradients', 'Map', 'Custom logo', 'A little of magic ✨']
 }, {
     name: 'Guess the number game',
     image: 'https://files.fm/thumb_show.php?i=rbdbenq3j',
     type: 'github',
     link: 'https://victor-kindrat.github.io/Guess-the-number-game/',
-    viewCode: 'https://github.com/victor-kindrat/Guess-the-number-game'
+    viewCode: 'https://github.com/victor-kindrat/Guess-the-number-game',
+    description: ``,
+    technologies: ['']
 }, {
     name: 'What file type is it',
     image: 'https://files.fm/thumb_show.php?i=a4r89888x',
     type: 'github',
     link: 'https://victor-kindrat.github.io/what-file-type-is-it/',
-    viewCode: 'https://github.com/victor-kindrat/what-file-type-is-it'
+    viewCode: 'https://github.com/victor-kindrat/what-file-type-is-it',
+    description: ``,
+    technologies: ['']
 }, {
     name: 'Text reader',
     image: 'https://files.fm/thumb_show.php?i=dayefmerw',
     type: 'github',
     link: 'https://victor-kindrat.github.io/textReader/',
-    viewCode: 'https://github.com/victor-kindrat/textReader'
+    viewCode: 'https://github.com/victor-kindrat/textReader',
+    description: ``,
+    technologies: ['']
 }, {
     name: 'API weather',
     image: 'https://fv1-6.failiem.lv/thumb_show.php?i=ga7sjd33q&view',
     type: 'github',
     link: 'https://vkindratapiweather.netlify.app/',
-    viewCode: 'https://github.com/victor-kindrat/APIWeather'
+    viewCode: 'https://github.com/victor-kindrat/APIWeather',
+    description: ``,
+    technologies: ['']
 }, {
     name: 'Cenzor',
     image: 'https://files.fm/thumb_show.php?i=h6bwd3w4g',
     type: 'github',
     link: 'https://victor-kindrat.github.io/Cenzor/',
-    viewCode: 'https://github.com/victor-kindrat/Cenzor'
+    viewCode: 'https://github.com/victor-kindrat/Cenzor',
+    description: ``,
+    technologies: ['']
 }, {
     name: 'Foodore switcher',
     image: 'https://files.fm/thumb_show.php?i=bx2hjfucz',
     type: 'github',
     link: 'https://foodore-switcher.netlify.app/',
-    viewCode: 'https://github.com/victor-kindrat/Foodore'
+    viewCode: 'https://github.com/victor-kindrat/Foodore',
+    description: ``,
+    technologies: ['']
 }];
 
 let projectsCount = projects.length;
@@ -258,6 +283,11 @@ $('.projects__view-btn').click(function () {
     $('.info').fadeIn(300);
     let item = projects[index];
     console.log(item);
+    $("#info__text_description").text(item.description);
+    $('.info__list').html('');
+    for (let i = 0; i !== item.technologies.length; i++) {
+        $(`.info__list`).append(`<li class="info__list-item">${item.technologies[i]}</li>`)
+    }
     $('.info').attr('class', 'info info_' + item.type)
     $('#info__headline_name').html(item.name);
     $('.info__btn_view').attr('href', item.viewCode);
