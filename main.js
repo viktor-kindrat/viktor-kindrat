@@ -52,48 +52,49 @@ let projects = [{
     type: 'github',
     link: 'https://victor-kindrat.github.io/Guess-the-number-game/',
     viewCode: 'https://github.com/victor-kindrat/Guess-the-number-game',
-    description: ``,
-    technologies: ['']
+    description: `Project-game built with JQuery 🕹
+                  JS project game. The goal in this game is to guess as many numbers as possible by the program for a certain time. Depending on the difficulty mode, the amount of time varies. Tips are available depending on the difficulty mode. 🎮`,
+    technologies: ['HTML', 'CSS', 'JS', 'JQuery', 'LocalStorage', '4 levels of difficulty', 'Math() JS', '2 languages', 'Custom alerts', 'Animated background', 'Hints']
 }, {
     name: 'What file type is it',
     image: 'https://files.fm/thumb_show.php?i=a4r89888x',
     type: 'github',
     link: 'https://victor-kindrat.github.io/what-file-type-is-it/',
     viewCode: 'https://github.com/victor-kindrat/what-file-type-is-it',
-    description: ``,
-    technologies: ['']
+    description: `Small JS project, file type analyzer. Can recognize more than 100 file extension. Used JS string methods and input type file to get extension.`,
+    technologies: ['HTML', 'CSS', 'JS', 'Media query', 'JQuery', 'Animations', 'Custom design', 'File type analyze', 'Input type file']
 }, {
     name: 'Text reader',
     image: 'https://files.fm/thumb_show.php?i=dayefmerw',
     type: 'github',
     link: 'https://victor-kindrat.github.io/textReader/',
     viewCode: 'https://github.com/victor-kindrat/textReader',
-    description: ``,
-    technologies: ['']
+    description: `Text reader which help to read your text faster. To concentrate on the right word, use the middle letter selection. You can also change the reading speed, pause and exit the active session 🚀`,
+    technologies: ['HTML', 'CSS', 'JS', 'Custom design', 'Speed changer', '"rer letter"', 'Pause', 'Close', 'Color theme', 'Local storage']
 }, {
     name: 'API weather',
     image: 'https://fv1-6.failiem.lv/thumb_show.php?i=ga7sjd33q&view',
     type: 'github',
     link: 'https://vkindratapiweather.netlify.app/',
     viewCode: 'https://github.com/victor-kindrat/APIWeather',
-    description: ``,
-    technologies: ['']
+    description: `Weather forecast application made on openweather API`,
+    technologies: ['HTML', 'CSS', 'JS', 'Fetch.API', 'Free geo API', 'JQuery', 'Media query', 'City changeing', 'Adaptive background', 'Custom design', 'Open Weather API']
 }, {
-    name: 'Cenzor',
+    name: 'Censor',
     image: 'https://files.fm/thumb_show.php?i=h6bwd3w4g',
     type: 'github',
     link: 'https://victor-kindrat.github.io/Cenzor/',
     viewCode: 'https://github.com/victor-kindrat/Cenzor',
-    description: ``,
-    technologies: ['']
+    description: `Online text censor project. Input your word, paste your text, click the button and watch the magic ✨`,
+    technologies: ['HTML', 'CSS', 'JS', 'UA language', 'Multi page', 'JQuery', 'Animations']
 }, {
     name: 'Foodore switcher',
     image: 'https://files.fm/thumb_show.php?i=bx2hjfucz',
     type: 'github',
     link: 'https://foodore-switcher.netlify.app/',
     viewCode: 'https://github.com/victor-kindrat/Foodore',
-    description: ``,
-    technologies: ['']
+    description: `Custom plate switcher. JS project. Make an order by spinning a plate.`,
+    technologies: ['HTML', 'CSS', 'JS', 'JQuery', 'Adaptivity', 'Bootstrap', 'Tray', 'Custom scrollbar', 'Custom design']
 }];
 
 let projectsCount = projects.length;
