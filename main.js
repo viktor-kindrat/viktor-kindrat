@@ -123,6 +123,48 @@ for (let i = 0; i !== projects.length; i++) {
     })
 }
 
+$('#projects__radio_all').click(function () {
+    $('.projects__place').html('');
+    for (let j = 0; j !== projects.length; j++) {
+        $('.projects__place').append(`<div class="projects__item projects__item${j} projects__item_${projects[j].type}">\n` +
+            `<button class="projects__view-btn projects__view-btn${j}">View</button>\n` +
+            `</div>`);
+        $('.projects__item' + j).css({
+            'background': '#eeeeee url("' + projects[j].image + '") no-repeat center 0%',
+            'backgroundSize': 'cover'
+        })
+    }
+});
+
+$('#projects__radio_pages').click(function () {
+    $('.projects__place').html('');
+    for (let j = 0; j !== projects.length; j++) {
+        if (projects[j].type === 'github') {
+            $('.projects__place').append(`<div class="projects__item projects__item${j} projects__item_${projects[j].type}">\n` +
+                `<button class="projects__view-btn projects__view-btn${j}">View</button>\n` +
+                `</div>`);
+            $('.projects__item' + j).css({
+                'background': '#eeeeee url("' + projects[j].image + '") no-repeat center 0%',
+                'backgroundSize': 'cover'
+            })
+        }
+    }
+})
+$('#projects__radio_designs').click(function () {
+    $('.projects__place').html('');
+    for (let j = 0; j !== projects.length; j++) {
+        if (projects[j].type === 'figma') {
+            $('.projects__place').append(`<div class="projects__item projects__item${j} projects__item_${projects[j].type}">\n` +
+                `<button class="projects__view-btn projects__view-btn${j}">View</button>\n` +
+                `</div>`);
+            $('.projects__item' + j).css({
+                'background': '#eeeeee url("' + projects[j].image + '") no-repeat center 0%',
+                'backgroundSize': 'cover'
+            })
+        }
+    }
+})
+
 $('.info').fadeOut(0)
 
 function fillMySkills(count) {
