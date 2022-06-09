@@ -534,6 +534,9 @@ body {
 
             /*info styles */
 
+.wrapper_night .info {
+    background: #261C2C;
+}
 .info {
     width: 80%;
     height: 80vh;
@@ -562,6 +565,9 @@ body {
     justify-content: space-between;
 }
 
+.wrapper_night .info__headline {
+    color: #ffffff;
+}
 .info__headline {
     font-family: 'Nunito', sans-serif;
     font-style: normal;
@@ -574,6 +580,9 @@ body {
     color: #5534A5;
 }
 
+.wrapper_night .info__text {
+    color: #ffffff
+}
 .info__text {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
@@ -589,6 +598,9 @@ body {
     line-height: calc(20px + .5vw);
 }
 
+.wrapper_night .info__list {
+    color: #ffffff;
+}
 .info__list {
     display: flex;
     flex-wrap: wrap;
@@ -627,6 +639,10 @@ body {
     position: relative;
 }
 
+.wrapper_night .info__btn, .wrapper_night .info__btn_open {
+    background: #ffffff;
+    color: #261C2C;
+}
 .info__btn_open {
     background: #5534A5
 }
