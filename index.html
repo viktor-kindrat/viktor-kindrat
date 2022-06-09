@@ -25,8 +25,8 @@
                 <div class="main__welcome">
                     <div class="main__txt">
                         <h1 class="main__headline">
-                            Hello! <br>
-                            I'm <span class="main__changer"> </span> <span class="main__wave"></span>
+                            Hello! <span class="main__wave"></span><br>
+                            I'm <span class="main__changer"></span>
                         </h1>
                         <div class="main__social-medias">
                             <a href="https://instagram.com/victor_kindrat?utm_medium=copy_link" target="_blank" class="main__link main__link1"></a>
@@ -189,7 +189,7 @@
     </nav>
 </div>
 <script>
-    var options = {
+    let options = {
         strings: ['', 'Victor Kindrat', 'web developer'],
         typeSpeed: 40,
         backDelay: 3500,
@@ -197,7 +197,7 @@
         loopCount: Infinity,
     };
 
-    var typed = new Typed('.main__changer', options);
+    let typed = new Typed('.main__changer', options);
 </script>
 <script src="main.js"></script>
 </body>

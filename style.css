@@ -201,7 +201,8 @@ body {
     background: #3E2C41;
 }
 .main__about-me {
-    min-height: 100vh;
+    height: 100vh;
+    max-height: 700px;
     width: 100vw;
     background: #A85CF9;
     position: relative;
@@ -300,6 +301,7 @@ body {
     width: 150px;
     border-radius: 50%;
     background: #5534A5;
+    background-size: calc(100% - 20px);
     transition: height 0.3s, width 0.3s;
     cursor: pointer;
 }
@@ -1110,4 +1112,42 @@ body {
 .footer__nav-item_active {
     font-weight: 900;
     color: #ffffff;
+}
+
+@media screen and (max-width: 1370px) {
+    .main__me {
+        width: 40%;
+    }
+    .main__txt {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 1096px) {
+    .main__me {
+        display: none;
+    }
+    .main__txt {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .main__headline {
+        text-align: left;
+    }
+
+    .main__iKnow-item {
+        width: 120px;
+        height: 120px;
+    }
+
+    .main__iKnow-item:hover {
+        width: 130px;
+        height: 130px;
+    }
+
+    .projects__item {
+        width: 80%;
+    }
 }

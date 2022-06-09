@@ -285,7 +285,10 @@ $('.info').fadeOut(0)
 function fillMySkills(count) {
     for (let i = 1; i!== count + 1; i++) {
         $('.main__iKnow-container').append('<div class="main__iKnow-item main__iKnow-item'+i+'"></div>');
-        $('.main__iKnow-item' + i).css('background', '#5534A5 url("./images/day/main/iknow/'+i+'.svg") no-repeat center')
+        $('.main__iKnow-item' + i).css({
+            'background': '#5534A5 url("./images/day/main/iknow/' + i + '.svg") no-repeat center',
+            'backgroundSize': 'calc(100% - 30px) calc(100% - 70px)'
+        })
     }
 }
 fillMySkills(20);
