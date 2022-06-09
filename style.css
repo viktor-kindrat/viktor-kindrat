@@ -61,7 +61,7 @@ body {
 
 /*main styles */
 
-.main, .projects {
+.main, .projects, .contacts {
     width: 100%;
     min-height: 100vh;
     display: flex;
@@ -168,7 +168,7 @@ body {
     z-index: 0;
 }
 
-.main__headline_2, .projects__headline_2 {
+.main__headline_2, .projects__headline_2, .contacts__headline_2 {
     font-family: 'Nunito', sans-serif;
     font-style: normal;
     font-weight: 900;
@@ -630,6 +630,86 @@ body {
     left: calc(100% - 70px);
     margin-right: 20px;
 }
+
+.contacts {
+    display: none;
+}
+
+.contacts__headline_2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: #5534A5;
+    margin-bottom: 50px;
+}
+
+.contacts__column {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.contacts__row {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contacts__item {
+    width: 40%;
+    background: #5534A5 url("./images/universal/contact/mail.svg") no-repeat 20px 20px;
+    background-size: 100px;
+    border-radius: 15px;
+    padding: 60px 60px 30px 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 25px;
+    text-decoration: none;
+}
+
+.contacts__row:nth-child(1) .contacts__item:nth-child(2) {
+    background: #5534A5 url("./images/universal/contact/telegram.svg") no-repeat 20px 20px;
+}
+
+.contacts__row:nth-child(2) .contacts__item:nth-child(1) {
+    background: #5534A5 url("./images/universal/contact/linkedin.svg") no-repeat 20px 20px;
+}
+
+.contacts__row:nth-child(2) .contacts__item:nth-child(2) {
+    background: #5534A5 url("./images/universal/contact/phone.svg") no-repeat 20px 20px;
+}
+
+.contacts__row:nth-child(3) .contacts__item:nth-child(1) {
+    background: #5534A5 url("./images/universal/contact/instagram.svg") no-repeat 20px 20px;
+}
+
+.contacts__name {
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: calc(22px + .5vw);
+    line-height: 39px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.contacts__data {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: calc(10px + .5vw);
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.5);
+
+}
+
 /*menu buttons style */
 
 .menu {
