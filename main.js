@@ -295,6 +295,31 @@ $('#nav__item_contact').click(function () {
     switchPage('contacts');
 })
 
+$('.menu__btn1').click(function () {
+    $('.page').css('right', '100vw');
+    setTimeout(function () {
+        window.scrollTo(0, 0)
+        $('.page').css('right', '0');
+        switchPage('main');
+    }, 500)
+})
+$('.menu__btn2').click(function () {
+    $('.page').css('right', '100vw');
+    setTimeout(function () {
+        window.scrollTo(0, 0)
+        $('.page').css('right', '0');
+        switchPage('projects');
+    }, 500)
+})
+$('.menu__btn3').click(function () {
+    $('.page').css('right', '100vw');
+    setTimeout(function () {
+        window.scrollTo(0, 0)
+        $('.page').css('right', '0');
+        switchPage('contacts');
+    }, 500)
+})
+
 $('#footer__nav-item1').click(function () {
     $('.page').css('right', '100vw');
     setTimeout(function () {
