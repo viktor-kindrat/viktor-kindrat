@@ -1,4 +1,5 @@
 let filterBtnStatus = 'disabled';
+let theme = 'day';
 let projects = [{
     name: 'Pelio - finance dashboard',
     image: 'https://fv9-5.failiem.lv/thumb_show.php?i=9kju3bgur&view',
@@ -134,6 +135,24 @@ $('#projects__radio_all').click(function () {
             'backgroundSize': 'cover'
         })
     }
+    $(".projects__item").mouseover(function () {
+        $(this).css({
+            'filter': 'grayscale(0)'
+        })
+        $(this).children().css({
+            'opacity': '1'
+        })
+        console.log('enter')
+    })
+
+    $('.projects__item').mouseout(function () {
+        $(this).css({
+            'filter': 'grayscale(0.8)'
+        })
+        $(this).children().css({
+            'opacity': '0'
+        })
+    })
 });
 
 $('#projects__radio_pages').click(function () {
@@ -149,6 +168,24 @@ $('#projects__radio_pages').click(function () {
             })
         }
     }
+    $(".projects__item").mouseover(function () {
+        $(this).css({
+            'filter': 'grayscale(0)'
+        })
+        $(this).children().css({
+            'opacity': '1'
+        })
+        console.log('enter')
+    })
+
+    $('.projects__item').mouseout(function () {
+        $(this).css({
+            'filter': 'grayscale(0.8)'
+        })
+        $(this).children().css({
+            'opacity': '0'
+        })
+    })
 })
 $('#projects__radio_designs').click(function () {
     $('.projects__place').html('');
@@ -163,6 +200,24 @@ $('#projects__radio_designs').click(function () {
             })
         }
     }
+    $(".projects__item").mouseover(function () {
+        $(this).css({
+            'filter': 'grayscale(0)'
+        })
+        $(this).children().css({
+            'opacity': '1'
+        })
+        console.log('enter')
+    })
+
+    $('.projects__item').mouseout(function () {
+        $(this).css({
+            'filter': 'grayscale(0.8)'
+        })
+        $(this).children().css({
+            'opacity': '0'
+        })
+    })
 })
 
 $('.info').fadeOut(0)
@@ -267,16 +322,17 @@ $('#projects__filter-btn').click(function () {
     $('.projects__filter-group').attr('class', 'projects__filter-group projects__filter-group_' + filterBtnStatus);
 });
 
-$(".projects__item").mouseenter(function () {
+$(".projects__item").mouseover(function () {
     $(this).css({
         'filter': 'grayscale(0)'
     })
     $(this).children().css({
         'opacity': '1'
     })
+    console.log('enter')
 })
 
-$('.projects__item').mouseleave(function () {
+$('.projects__item').mouseout(function () {
     $(this).css({
         'filter': 'grayscale(0.8)'
     })
@@ -368,4 +424,19 @@ $('.projects__view-btn').click(function () {
 
 $('.info__close').click(function (){
     $('.info').fadeOut(300);
+})
+
+$('.nav__tumbler').click(function () {
+    if (theme === 'day'){
+        theme = 'night'
+        $('.main__iKnow-item').css({
+            'backgroundColor': '#3E2C41'
+        })
+    } else {
+        theme = 'day'
+        $('.main__iKnow-item').css({
+            'backgroundColor': '#5534A5'
+        })
+    }
+    $('.wrapper').attr('class', 'wrapper wrapper_' + theme);
 })
