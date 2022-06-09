@@ -153,6 +153,26 @@ $('#projects__radio_all').click(function () {
             'opacity': '0'
         })
     })
+    $('.projects__view-btn').click(function () {
+        let classes = $(this).attr('class');
+        let index = classes.slice(classes.lastIndexOf('_view-btn') + 9, classes.length);
+        $('.info').fadeIn(300);
+        let item = projects[index];
+        console.log(item);
+        $("#info__text_description").text(item.description);
+        $('.info__list').html('');
+        for (let i = 0; i !== item.technologies.length; i++) {
+            $(`.info__list`).append(`<li class="info__list-item">${item.technologies[i]}</li>`)
+        }
+        $('.info').attr('class', 'info info_' + item.type)
+        $('#info__headline_name').html(item.name);
+        $('.info__btn_view').attr('href', item.viewCode);
+        $('.info__btn_open').attr('href', item.link);
+        $('.info__image').css({
+            'background': 'url("' + item.image + '") no-repeat center 0%',
+            'backgroundSize': 'cover'
+        })
+    })
 });
 
 $('#projects__radio_pages').click(function () {
@@ -186,6 +206,26 @@ $('#projects__radio_pages').click(function () {
             'opacity': '0'
         })
     })
+    $('.projects__view-btn').click(function () {
+        let classes = $(this).attr('class');
+        let index = classes.slice(classes.lastIndexOf('_view-btn') + 9, classes.length);
+        $('.info').fadeIn(300);
+        let item = projects[index];
+        console.log(item);
+        $("#info__text_description").text(item.description);
+        $('.info__list').html('');
+        for (let i = 0; i !== item.technologies.length; i++) {
+            $(`.info__list`).append(`<li class="info__list-item">${item.technologies[i]}</li>`)
+        }
+        $('.info').attr('class', 'info info_' + item.type)
+        $('#info__headline_name').html(item.name);
+        $('.info__btn_view').attr('href', item.viewCode);
+        $('.info__btn_open').attr('href', item.link);
+        $('.info__image').css({
+            'background': 'url("' + item.image + '") no-repeat center 0%',
+            'backgroundSize': 'cover'
+        })
+    })
 })
 $('#projects__radio_designs').click(function () {
     $('.projects__place').html('');
@@ -216,6 +256,26 @@ $('#projects__radio_designs').click(function () {
         })
         $(this).children().css({
             'opacity': '0'
+        })
+    })
+    $('.projects__view-btn').click(function () {
+        let classes = $(this).attr('class');
+        let index = classes.slice(classes.lastIndexOf('_view-btn') + 9, classes.length);
+        $('.info').fadeIn(300);
+        let item = projects[index];
+        console.log(item);
+        $("#info__text_description").text(item.description);
+        $('.info__list').html('');
+        for (let i = 0; i !== item.technologies.length; i++) {
+            $(`.info__list`).append(`<li class="info__list-item">${item.technologies[i]}</li>`)
+        }
+        $('.info').attr('class', 'info info_' + item.type)
+        $('#info__headline_name').html(item.name);
+        $('.info__btn_view').attr('href', item.viewCode);
+        $('.info__btn_open').attr('href', item.link);
+        $('.info__image').css({
+            'background': 'url("' + item.image + '") no-repeat center 0%',
+            'backgroundSize': 'cover'
         })
     })
 })
