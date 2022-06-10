@@ -1368,6 +1368,7 @@ body {
     }
     .info {
         height: 600px;
+        top: calc(50% - 300px);
     }
     .info__image {
         width: 100%;
