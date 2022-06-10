@@ -67,9 +67,12 @@ body {
     color: #5534A5;
 }
 
+
 /*main styles */
 
-.main, .projects, .contacts {
+.main,
+.projects,
+.contacts {
     width: 100%;
     min-height: 100vh;
     display: flex;
@@ -90,6 +93,7 @@ body {
 .wrapper_night .main__headline {
     color: #5C527F;
 }
+
 .main__headline {
     font-family: 'Nunito', sans-serif;
     font-style: normal;
@@ -103,6 +107,7 @@ body {
 .wrapper_night .main__changer {
     color: #ffffff;
 }
+
 .main__changer {
     text-decoration: underline 3px;
     color: #5534A5;
@@ -115,6 +120,7 @@ body {
 .typed-cursor {
     color: #5534A5;
 }
+
 .main__txt {
     width: 50%;
 }
@@ -157,6 +163,7 @@ body {
 .wrapper_night .main__link1 {
     background: url("./images/night/main/instagram.svg") no-repeat center;
 }
+
 .main__link1 {
     background: url("./images/day/main/instagram.svg") no-repeat center;
     background-size: cover;
@@ -165,6 +172,7 @@ body {
 .wrapper_night .main__link2 {
     background: url("./images/night/main/telegram.svg") no-repeat center;
 }
+
 .main__link2 {
     background: url("./images/day/main/telegram.svg") no-repeat center;
     background-size: cover;
@@ -173,6 +181,7 @@ body {
 .wrapper_night .main__link3 {
     background: url("./images/night/main/github.svg") no-repeat center;
 }
+
 .main__link3 {
     background: url("./images/day/main/github.svg") no-repeat center;
     background-size: cover;
@@ -200,6 +209,7 @@ body {
 .wrapper_night .main__about-me {
     background: #3E2C41;
 }
+
 .main__about-me {
     height: 100vh;
     max-height: 700px;
@@ -216,7 +226,9 @@ body {
     z-index: 0;
 }
 
-.main__headline_2, .projects__headline_2, .contacts__headline_2 {
+.main__headline_2,
+.projects__headline_2,
+.contacts__headline_2 {
     font-family: 'Nunito', sans-serif;
     font-style: normal;
     font-weight: 900;
@@ -269,6 +281,7 @@ body {
 .wrapper_night .main__iKnow {
     background: #261C2C;
 }
+
 .main__iKnow {
     width: calc(100vw - 200px);
     max-width: 1132px;
@@ -295,7 +308,6 @@ body {
     margin-top: 50px;
 }
 
-
 .main__iKnow-item {
     height: 150px;
     width: 150px;
@@ -311,14 +323,17 @@ body {
     width: 160px;
 }
 
-.main__headline_2-purple, .projects__headline_2-purple {
+.main__headline_2-purple,
+.projects__headline_2-purple {
     color: #5534A5;
     text-align: center;
 }
 
-.wrapper_night .main__headline_2-purple, .wrapper_night .projects__headline_2-purple {
+.wrapper_night .main__headline_2-purple,
+.wrapper_night .projects__headline_2-purple {
     color: #ffffff;
 }
+
 
 /*projects style*/
 
@@ -343,6 +358,7 @@ body {
 .wrapper_night .projects__counter {
     color: #ffffff;
 }
+
 .projects__counter {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
@@ -351,12 +367,14 @@ body {
     font-size: calc((26px + .5vw) * 2 - 8px);
     line-height: 78px;
     text-transform: uppercase;
-    color: #5534A5;;
+    color: #5534A5;
+    ;
 }
 
 .wrapper_night .projects__title {
     color: #5C527F;
 }
+
 .projects__title {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
@@ -382,6 +400,7 @@ body {
     background-size: 20px;
     box-shadow: 0 0 2px rgba(255, 255, 255, 0.25);
 }
+
 .projects__filter-btn {
     padding: 9px 260px 9px 35px;
     background: rgba(255, 255, 255, 0.01) url("./images/day/projects/filter.svg") no-repeat 10px center;
@@ -422,11 +441,11 @@ body {
     top: 0;
 }
 
-
 .wrapper_night .projects__select-item {
     box-shadow: 0 0 2px rgba(255, 255, 255, 0.25);
     color: #ffffff;
 }
+
 .projects__select-item {
     width: 100%;
     height: 50px;
@@ -449,6 +468,7 @@ body {
 .wrapper_night .projects__radio {
     accent-color: #ffffff;
 }
+
 .projects__radio {
     margin-right: 15px;
     accent-color: #5534A5;
@@ -507,9 +527,10 @@ body {
     margin-right: 20px;
 }
 
-.wrapper_night .projects__view-btn{
+.wrapper_night .projects__view-btn {
     background: #5C527F;
 }
+
 .projects__view-btn {
     width: 200px;
     height: 200px;
@@ -537,16 +558,19 @@ body {
     background: #ffffff;
     color: #5C527F;
 }
+
 .projects__view-btn:hover {
     background: #ffffff;
     color: #5534A5;
 }
 
-            /*info styles */
+
+/*info styles */
 
 .wrapper_night .info {
     background: #261C2C;
 }
+
 .info {
     width: 80%;
     height: 80vh;
@@ -578,6 +602,7 @@ body {
 .wrapper_night .info__headline {
     color: #ffffff;
 }
+
 .info__headline {
     font-family: 'Nunito', sans-serif;
     font-style: normal;
@@ -593,6 +618,7 @@ body {
 .wrapper_night .info__text {
     color: #ffffff
 }
+
 .info__text {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
@@ -611,6 +637,7 @@ body {
 .wrapper_night .info__list {
     color: #ffffff;
 }
+
 .info__list {
     display: flex;
     flex-wrap: wrap;
@@ -649,10 +676,12 @@ body {
     position: relative;
 }
 
-.wrapper_night .info__btn, .wrapper_night .info__btn_open {
+.wrapper_night .info__btn,
+.wrapper_night .info__btn_open {
     background: #ffffff;
     color: #261C2C;
 }
+
 .info__btn_open {
     background: #5534A5
 }
@@ -663,7 +692,7 @@ body {
     justify-content: space-between;
     align-items: stretch;
     gap: 30px;
- }
+}
 
 .info__close {
     width: 40px;
@@ -700,7 +729,7 @@ body {
     bottom: -2px;
 }
 
-.info_figma .info__btn_view{
+.info_figma .info__btn_view {
     display: none;
 }
 
@@ -717,6 +746,7 @@ body {
     left: calc(100% - 70px);
     margin-right: 20px;
 }
+
 .info_figma .info__image::after {
     content: '';
     height: 50px;
@@ -738,6 +768,7 @@ body {
 .wrapper_night .contacts__headline_2 {
     color: #ffffff;
 }
+
 .contacts__headline_2 {
     width: 100%;
     display: flex;
@@ -764,6 +795,7 @@ body {
 .wrapper_night .contacts__item {
     background-color: #3E2C41;
 }
+
 .contacts__item {
     width: 40%;
     background: #5534A5 url("./images/universal/contact/mail.svg") no-repeat 20px 20px;
@@ -829,8 +861,8 @@ body {
     display: flex;
     align-items: center;
     color: rgba(255, 255, 255, 0.5);
-
 }
+
 
 /*menu buttons style */
 
@@ -858,6 +890,7 @@ body {
 .wrapper_night .menu__btn_active {
     filter: drop-shadow(0 0 2px rgba(255, 255, 255, 0.25));
 }
+
 .menu__btn {
     height: 40px;
     width: 40px;
@@ -898,6 +931,7 @@ body {
     background: url("./images/night/menu/home.svg") no-repeat center;
     background-size: contain;
 }
+
 .menu__btn1 {
     background: url("./images/day/menu/home.svg") no-repeat center;
     background-size: contain;
@@ -907,6 +941,7 @@ body {
     background: url("./images/night/menu/portfolio.svg") no-repeat center;
     background-size: contain;
 }
+
 .menu__btn2 {
     background: url("./images/day/menu/portfolio.svg") no-repeat center;
     background-size: contain;
@@ -917,16 +952,17 @@ body {
     background: url("./images/night/menu/contact.svg") no-repeat center;
     background-size: contain;
 }
+
 .menu__btn3 {
     background: url("./images/day/menu/contact.svg") no-repeat center;
     background-size: contain;
 }
 
-
 .wrapper_night .menu__btn1.menu__btn_active {
     background: url("./images/night/menu/home-active.svg") no-repeat center;
     background-size: contain;
 }
+
 .menu__btn1.menu__btn_active {
     background: url("./images/day/menu/home-active.svg") no-repeat center;
     background-size: contain;
@@ -936,6 +972,7 @@ body {
     background: url("./images/night/menu/portfolio-active.svg") no-repeat center;
     background-size: contain;
 }
+
 .menu__btn2.menu__btn_active {
     background: url("./images/day/menu/portfolio-active.svg") no-repeat center;
     background-size: contain;
@@ -946,16 +983,19 @@ body {
     background: url("./images/night/menu/contact-active.svg") no-repeat center;
     background-size: contain;
 }
+
 .menu__btn3.menu__btn_active {
     background: url("./images/day/menu/contact-active.svg") no-repeat center;
     background-size: contain;
 }
+
 
 /*navigation styles */
 
 .wrapper_night .nav {
     background: rgba(38, 28, 44, 0.5);
 }
+
 .nav {
     width: 100vw;
     position: fixed;
@@ -1039,6 +1079,7 @@ body {
     background-size: cover;
     left: 50px;
 }
+
 .nav__tumbler-point {
     height: 40px;
     width: 40px;
@@ -1050,11 +1091,13 @@ body {
     transition: 0.3s;
 }
 
+
 /*footer styles*/
 
 .wrapper_night .footer {
     background: transparent;
 }
+
 .footer {
     height: 550px;
     width: 100vw;
@@ -1136,17 +1179,14 @@ body {
     .main__headline {
         text-align: left;
     }
-
     .main__iKnow-item {
         width: 120px;
         height: 120px;
     }
-
     .main__iKnow-item:hover {
         width: 130px;
         height: 130px;
     }
-
     .projects__item {
         width: 80%;
     }
@@ -1169,25 +1209,21 @@ body {
         padding: 0;
         background: #ffffff;
     }
-
     .menu__group {
         width: 100%;
         flex-direction: row;
         align-items: center;
         justify-content: space-around;
     }
-
-    .menu__btn0  {
+    .menu__btn0 {
         display: none;
     }
-
     .menu__btn2 {
         margin: 0;
     }
-
     .content-wrapper {
         max-width: 100vw;
-        padding: 30px ;
+        padding: 30px;
     }
     .main__headline {
         font-size: calc(42px + .5vw);
@@ -1202,10 +1238,12 @@ body {
         width: 50px;
         margin-right: 25px;
     }
-
     .main__about-me {
         padding: 30px;
         right: 35px;
+    }
+    .main__text {
+        font-size: 14px;
     }
     .main__iKnow {
         width: 90%;
@@ -1214,7 +1252,6 @@ body {
     .main__iKnow-container {
         gap: 20px;
     }
-
     .main__text::before {
         content: '';
         display: block;
@@ -1224,7 +1261,6 @@ body {
         margin-bottom: calc(50px + 2vh);
         border-radius: 4px;
     }
-
     .main__text::after {
         content: '';
         display: block;
@@ -1234,26 +1270,21 @@ body {
         margin-bottom: calc(50px + 2vh);
         border-radius: 4px;
     }
-
     .projects__item {
         width: 95%;
         min-width: 0;
         height: 300px;
     }
-
     .contacts__column {
         gap: 30px;
     }
-
     .contacts__row {
         flex-direction: column;
         gap: 30px;
     }
-
     .contacts__item {
         width: 100%;
     }
-
     .footer {
         flex-direction: column;
         padding: 30px;
@@ -1300,7 +1331,6 @@ body {
         left: calc(50% - 50px);
         top: 0;
         border: none;
-
     }
     .projects__row {
         flex-direction: column
@@ -1308,7 +1338,6 @@ body {
     .projects__text-group {
         width: 100%;
     }
-
 }
 
 @media screen and (max-width: 300px) {
@@ -1348,7 +1377,6 @@ body {
         margin-bottom: calc(30px + 2vh);
         border-radius: 4px;
     }
-
     .main__text::after {
         content: '';
         display: block;
@@ -1358,61 +1386,49 @@ body {
         margin-bottom: calc(30px + 2vh);
         border-radius: 4px;
     }
-
     .contacts__headline_2 {
         font-size: 28px;
     }
-
     .contacts__item {
         padding: 30px 30px 30px 40px;
         background-size: 50px;
     }
-
     .contacts__row:nth-child(1) .contacts__item:nth-child(2) {
         background: #5534A5 url("./images/universal/contact/telegram.svg") no-repeat 20px 20px;
         background-size: 50px;
     }
-
     .contacts__row:nth-child(2) .contacts__item:nth-child(1) {
         background: #5534A5 url("./images/universal/contact/linkedin.svg") no-repeat 20px 20px;
         background-size: 50px;
     }
-
     .contacts__row:nth-child(2) .contacts__item:nth-child(2) {
         background: #5534A5 url("./images/universal/contact/phone.svg") no-repeat 20px 20px;
         background-size: 50px;
     }
-
     .contacts__row:nth-child(3) .contacts__item:nth-child(1) {
         background: #5534A5 url("./images/universal/contact/instagram.svg") no-repeat 20px 20px;
         background-size: 50px;
     }
-
     .wrapper_night .contacts__row:nth-child(1) .contacts__item:nth-child(2) {
         background: #3E2C41 url("./images/universal/contact/telegram.svg") no-repeat 20px 20px;
         background-size: 50px;
     }
-
     .wrapper_night .contacts__row:nth-child(2) .contacts__item:nth-child(1) {
         background: #3E2C41 url("./images/universal/contact/linkedin.svg") no-repeat 20px 20px;
         background-size: 50px;
     }
-
     .wrapper_night .contacts__row:nth-child(2) .contacts__item:nth-child(2) {
         background: #3E2C41 url("./images/universal/contact/phone.svg") no-repeat 20px 20px;
         background-size: 50px;
     }
-
     .wrapper_night .contacts__row:nth-child(3) .contacts__item:nth-child(1) {
         background: #3E2C41 url("./images/universal/contact/instagram.svg") no-repeat 20px 20px;
         background-size: 50px;
     }
-
     .contacts__name {
         font-size: 20px;
         line-height: 25px;
     }
-
     .contacts__data {
         font-size: 12px;
     }
