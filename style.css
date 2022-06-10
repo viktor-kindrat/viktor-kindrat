@@ -1151,3 +1151,269 @@ body {
         width: 80%;
     }
 }
+
+@media screen and (max-width: 714px) {
+    .wrapper_night .menu {
+        background: #3E2C41;
+    }
+    .menu {
+        height: 10vh;
+        width: 100%;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        top: auto;
+        right: auto;
+        left: 0;
+        bottom: 0;
+        padding: 0;
+        background: #ffffff;
+    }
+
+    .menu__group {
+        width: 100%;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .menu__btn0  {
+        display: none;
+    }
+
+    .menu__btn2 {
+        margin: 0;
+    }
+
+    .content-wrapper {
+        max-width: 100vw;
+        padding: 30px ;
+    }
+    .main__headline {
+        font-size: calc(42px + .5vw);
+        line-height: calc(48px + .5vw);
+    }
+    .main__wave {
+        height: calc(42px + .5vw);
+        width: calc(42px + .5vw);
+    }
+    .main__link {
+        height: 50px;
+        width: 50px;
+        margin-right: 25px;
+    }
+
+    .main__about-me {
+        padding: 30px;
+        right: 35px;
+    }
+    .main__iKnow {
+        width: 90%;
+        padding: 30px;
+    }
+    .main__iKnow-container {
+        gap: 20px;
+    }
+
+    .main__text::before {
+        content: '';
+        display: block;
+        height: 4px;
+        width: 100px;
+        margin-top: calc(50px + 2vh);
+        margin-bottom: calc(50px + 2vh);
+        border-radius: 4px;
+    }
+
+    .main__text::after {
+        content: '';
+        display: block;
+        height: 4px;
+        width: 100px;
+        margin-top: calc(50px + 2vh);
+        margin-bottom: calc(50px + 2vh);
+        border-radius: 4px;
+    }
+
+    .projects__item {
+        width: 95%;
+        min-width: 0;
+        height: 300px;
+    }
+
+    .contacts__column {
+        gap: 30px;
+    }
+
+    .contacts__row {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .contacts__item {
+        width: 100%;
+    }
+
+    .footer {
+        flex-direction: column;
+        padding: 30px;
+        margin-bottom: 10vh;
+    }
+    .footer__left {
+        width: 100%;
+    }
+    .footer__copy {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 435px) {
+    .main__iKnow {
+        padding: 15px;
+    }
+    .main__iKnow-container {
+        gap: 15px;
+        justify-content: space-around;
+    }
+    .main__iKnow-item {
+        width: 100px;
+        height: 100px;
+    }
+    .main__iKnow-item:hover {
+        width: 110px;
+        height: 110px;
+    }
+    .projects__item {
+        width: 100%;
+        min-width: 0;
+        height: 200px;
+    }
+    .projects__view-btn {
+        width: 100px;
+        height: 100px;
+        font-weight: 900;
+        font-size: 20px;
+        line-height: 25px;
+        opacity: 0;
+        transition: 0.3s;
+        position: relative;
+        left: calc(50% - 50px);
+        top: 0;
+        border: none;
+
+    }
+    .projects__row {
+        flex-direction: column
+    }
+    .projects__text-group {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 300px) {
+    .header__text {
+        font-size: 20px;
+    }
+    .main__welcome {
+        min-height: 50vh;
+    }
+    .main__headline {
+        font-size: 28px;
+        line-height: 35px;
+    }
+    .main__wave {
+        height: 25px;
+        width: 25px;
+    }
+    .menu__btn {
+        height: 30px;
+        width: 30px;
+    }
+    .main__link {
+        width: 40px;
+        height: 40px;
+        border-radius: 10px;
+        margin-right: 15px;
+    }
+    .main__headline_2 {
+        font-size: 25px;
+    }
+    .main__text::before {
+        content: '';
+        display: block;
+        height: 4px;
+        width: 100px;
+        margin-top: calc(30px + 2vh);
+        margin-bottom: calc(30px + 2vh);
+        border-radius: 4px;
+    }
+
+    .main__text::after {
+        content: '';
+        display: block;
+        height: 4px;
+        width: 100px;
+        margin-top: calc(30px + 2vh);
+        margin-bottom: calc(30px + 2vh);
+        border-radius: 4px;
+    }
+
+    .contacts__headline_2 {
+        font-size: 28px;
+    }
+
+    .contacts__item {
+        padding: 30px 30px 30px 40px;
+        background-size: 50px;
+    }
+
+    .contacts__row:nth-child(1) .contacts__item:nth-child(2) {
+        background: #5534A5 url("./images/universal/contact/telegram.svg") no-repeat 20px 20px;
+        background-size: 50px;
+    }
+
+    .contacts__row:nth-child(2) .contacts__item:nth-child(1) {
+        background: #5534A5 url("./images/universal/contact/linkedin.svg") no-repeat 20px 20px;
+        background-size: 50px;
+    }
+
+    .contacts__row:nth-child(2) .contacts__item:nth-child(2) {
+        background: #5534A5 url("./images/universal/contact/phone.svg") no-repeat 20px 20px;
+        background-size: 50px;
+    }
+
+    .contacts__row:nth-child(3) .contacts__item:nth-child(1) {
+        background: #5534A5 url("./images/universal/contact/instagram.svg") no-repeat 20px 20px;
+        background-size: 50px;
+    }
+
+    .wrapper_night .contacts__row:nth-child(1) .contacts__item:nth-child(2) {
+        background: #3E2C41 url("./images/universal/contact/telegram.svg") no-repeat 20px 20px;
+        background-size: 50px;
+    }
+
+    .wrapper_night .contacts__row:nth-child(2) .contacts__item:nth-child(1) {
+        background: #3E2C41 url("./images/universal/contact/linkedin.svg") no-repeat 20px 20px;
+        background-size: 50px;
+    }
+
+    .wrapper_night .contacts__row:nth-child(2) .contacts__item:nth-child(2) {
+        background: #3E2C41 url("./images/universal/contact/phone.svg") no-repeat 20px 20px;
+        background-size: 50px;
+    }
+
+    .wrapper_night .contacts__row:nth-child(3) .contacts__item:nth-child(1) {
+        background: #3E2C41 url("./images/universal/contact/instagram.svg") no-repeat 20px 20px;
+        background-size: 50px;
+    }
+
+    .contacts__name {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .contacts__data {
+        font-size: 12px;
+    }
+}
