@@ -6,9 +6,8 @@ let projects = [{
     type: 'github',
     link: 'https://pelio-dashboard.netlify.app/',
     viewCode: 'https://github.com/victor-kindrat/pelio-dashboard',
-    description: `Pelio - your finance dashboard.
-                  Figma to HTML project.`,
-    technologies: ['HTML', 'CSS', "JS", 'Media query', 'Animations', 'LocalStorage', 'Password chipper', 'Chart.js', 'Your statistic counter']
+    description: `Pelio - your finance dashboard. Figma to HTML project.`,
+    technologies: ['HTML', 'CSS', "JS", 'Media query', 'Animations', 'LocalStorage', 'Data encryption', 'Chart.js', 'JQuery', 'Random user API']
 }, {
     name: 'Happy pet',
     image: 'https://files.fm/thumb_show.php?i=25vm64gfj',
