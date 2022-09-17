@@ -16,4 +16,4 @@ I am a sixteen year old web developer located in Ukraine 🇺🇦. I started my 
 
 > Instagram: https://instagram.com/victor_kindrat?utm_medium=copy_link
 
-> Telegram: https://web.telegram.org/#/im?p=@vegeran
+> Telegram: https://victor_kindrat.t.me
