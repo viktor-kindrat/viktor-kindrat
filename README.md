@@ -4,6 +4,8 @@ I am web developer located in Ukraine 🇺🇦. I started my career in web devel
 
 [💻 My portfolio](https://victor-kindrat.netlify.app/)
 
+[👨🏻‍💻 Work with me (Upwork)](https://www.upwork.com/workwith/victork8)
+
 [🍏 Buy me an apple](https://www.buymeacoffee.com/victorkindrat)
 
 ## My GitHub activity:
