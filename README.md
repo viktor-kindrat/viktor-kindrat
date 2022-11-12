@@ -9,7 +9,7 @@ I am web developer located in Ukraine ![image](https://user-images.githubusercon
 [![image](https://user-images.githubusercontent.com/84918090/201474739-fc0d75e1-63f4-4b17-bbb0-349885807c0b.png)](https://www.buymeacoffee.com/victorkindrat)
 
 ## My GitHub activity:
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=victor-kindrat&theme=city-lights&hide_border=true&date_format=%5BY.%5Dn.j&background=DDDDDD00)](https://git.io/streak-stats)
+[![GitHub Streak](https://streak-stats.demolab.com?user=victor-kindrat&theme=vision-friendly-dark&hide_border=true&border_radius=5.5&background=DD272700&dates=FFFFFF97&fire=B200DD&currStreakNum=B200DD&currStreakLabel=B200DD)](https://git.io/streak-stats)
 
 ## You can find me there 👇🏻
 > Linked in: https://www.linkedin.com/in/viktor-kindrat/
