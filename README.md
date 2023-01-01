@@ -6,7 +6,7 @@ I am web developer located in Ukraine ![image](https://user-images.githubusercon
 
 [![image](https://user-images.githubusercontent.com/84918090/202282254-ab866011-45f2-4975-860d-937a9a3914a9.png)](https://victor-kindrat.netlify.app/) &nbsp;&nbsp;
 [![image](https://user-images.githubusercontent.com/84918090/201474654-5fcdd231-08e5-416f-891f-f083350904c4.png)](https://www.upwork.com/workwith/viktork7) &nbsp;&nbsp;
-[![image](https://user-images.githubusercontent.com/84918090/201474739-fc0d75e1-63f4-4b17-bbb0-349885807c0b.png)](https://www.buymeacoffee.com/victorkindrat)
+[![image](https://user-images.githubusercontent.com/84918090/201474739-fc0d75e1-63f4-4b17-bbb0-349885807c0b.png)](https://www.buymeacoffee.com/victorkindrat) &nbsp;&nbsp;
 
   <hr>
   
