@@ -5,7 +5,6 @@
 I am web developer located in Ukraine ![image](https://user-images.githubusercontent.com/84918090/201474845-932ac61c-7ed3-46f3-a552-7cabddb56eee.png). I started my career in web development by studying at the Creator IT Academy. I started my way in IT only in 2021, but I already have a number of projects that are worth noting. My portfolio includes both HTML / CSS, web design projects and JS-based projects.
 
 [![image](https://user-images.githubusercontent.com/84918090/202282254-ab866011-45f2-4975-860d-937a9a3914a9.png)](https://victor-kindrat.netlify.app/) &nbsp;&nbsp;
-[![image](https://user-images.githubusercontent.com/84918090/201474654-5fcdd231-08e5-416f-891f-f083350904c4.png)](https://www.upwork.com/workwith/viktork7) &nbsp;&nbsp;
 [![image](https://user-images.githubusercontent.com/84918090/201474739-fc0d75e1-63f4-4b17-bbb0-349885807c0b.png)](https://www.buymeacoffee.com/victorkindrat) &nbsp;&nbsp;
 
   <hr>
@@ -15,7 +14,7 @@ I am web developer located in Ukraine ![image](https://user-images.githubusercon
   &nbsp; &nbsp;
 [![image](https://user-images.githubusercontent.com/84918090/202285398-6588fc5c-f989-4465-bdd1-6cb417622b1a.png)](https://www.linkedin.com/in/viktor-kindrat/) &nbsp; &nbsp;
 [![image](https://user-images.githubusercontent.com/84918090/202284903-667ee18b-7e48-4574-9038-2bf82c7a6dc5.png)](https://www.instagram.com/victor_kindrat/) &nbsp; &nbsp;
-[![image](https://user-images.githubusercontent.com/84918090/202285327-edddc319-1fce-45a3-9aea-e03a0da82a9d.png)](https://viktorKind.t.me) &nbsp; 
+[![image](https://user-images.githubusercontent.com/84918090/202285327-edddc319-1fce-45a3-9aea-e03a0da82a9d.png)](https://t.me/mexicancat228) &nbsp; 
   &nbsp;
   
   
