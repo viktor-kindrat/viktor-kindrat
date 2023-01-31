@@ -2,7 +2,7 @@
 
 # Welcome to my GitHub ✨👋🏻
 
-I am web developer located in Ukraine ![image](https://user-images.githubusercontent.com/84918090/201474845-932ac61c-7ed3-46f3-a552-7cabddb56eee.png). I started my career in web development by studying at the Creator IT Academy. I started my way in IT only in 2021, but I already have a number of projects that are worth noting. My portfolio includes both HTML / CSS, web design projects and JS-based projects.
+I am web developer from Ukraine ![image](https://user-images.githubusercontent.com/84918090/201474845-932ac61c-7ed3-46f3-a552-7cabddb56eee.png). I started my career in web development by studying at the Creator IT Academy. I started my way in IT only in 2021, but I already have a number of projects that are worth noting. My portfolio includes both HTML / CSS, web design projects and JS-based projects.
 
 [![image](https://user-images.githubusercontent.com/84918090/202282254-ab866011-45f2-4975-860d-937a9a3914a9.png)](https://victor-kindrat.netlify.app/) &nbsp;&nbsp;
 [![image](https://user-images.githubusercontent.com/84918090/201474739-fc0d75e1-63f4-4b17-bbb0-349885807c0b.png)](https://www.buymeacoffee.com/victorkindrat) &nbsp;&nbsp;
