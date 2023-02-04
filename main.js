@@ -5,7 +5,7 @@ let projects = [{
     image: 'https://fv9-5.failiem.lv/thumb_show.php?i=9kju3bgur&view',
     type: 'github',
     link: 'https://pelio-dashboard.netlify.app/',
-    viewCode: 'https://github.com/victor-kindrat/pelio-dashboard',
+    viewCode: 'https://github.com/viktor-kindrat/pelio-dashboard',
     description: `Pelio - your finance dashboard. Figma to HTML project.`,
     technologies: ['HTML', 'CSS', "JS", 'Media query', 'Animations', 'LocalStorage', 'Data encryption', 'Chart.js', 'JQuery', 'Random user API']
 }, {
@@ -19,8 +19,8 @@ let projects = [{
     name: 'Rocket travel',
     image: 'https://files.fm/thumb_show.php?i=vqbuxe9jb',
     type: 'github',
-    link: 'https://victor-kindrat.github.io/Rocket-Travel/',
-    viewCode: 'https://github.com/victor-kindrat/Rocket-Travel',
+    link: 'https://viktor-kindrat.github.io/Rocket-Travel/',
+    viewCode: 'https://github.com/viktor-kindrat/Rocket-Travel',
     description: `This is my biggest project designed in Creator IT Academy, which includes about 90% of the technology I studied the day before. The theme of the project is a travel agency that organizes the most popular tours around the world. The main motto of this company - your journey - is our work.`,
     technologies: ['HTML', 'CSS', 'Media query', 'Animations', 'Preloader', 'Bootstrap', 'IFrame', 'Multipage', 'Flexbox', 'HTML5 features', 'CSS parallax effect', 'More than 3 fonts']
 }, {
@@ -28,15 +28,15 @@ let projects = [{
     image: 'https://files.fm/thumb_show.php?i=2h2q6zd9x',
     type: 'github',
     link: 'https://paintpictures.netlify.app/',
-    viewCode: 'https://github.com/victor-kindrat/Paint-pictures',
+    viewCode: 'https://github.com/viktor-kindrat/Paint-pictures',
     description: `JS project. Сustom copy of all known paint for PCs and smartphones developed with JS canvas.`,
     technologies: ['HTML', 'CSS', 'JS', 'Canvas JS', 'Colors change', 'Ability to paint a line', 'Rubber brush', 'Reply function', 'Menu close by double click']
 }, {
     name: 'MNTN landing',
     image: 'https://files.fm/thumb_show.php?i=hf2pwpzkw',
     type: 'github',
-    link: 'https://victor-kindrat.github.io/MNTN-Landing/',
-    viewCode: 'https://github.com/victor-kindrat/MNTN-Landing',
+    link: 'https://viktor-kindrat.github.io/MNTN-Landing/',
+    viewCode: 'https://github.com/viktor-kindrat/MNTN-Landing',
     description: `Website landing is created on a figma layout with a parallax effect. HTML/CSS only ⚡`,
     technologies: ['HTML', 'CSS', 'Parallax effect', 'Anchor to elements', 'Social medias']
 }, {
@@ -50,8 +50,8 @@ let projects = [{
     name: 'Guess the number game',
     image: 'https://files.fm/thumb_show.php?i=rbdbenq3j',
     type: 'github',
-    link: 'https://victor-kindrat.github.io/Guess-the-number-game/',
-    viewCode: 'https://github.com/victor-kindrat/Guess-the-number-game',
+    link: 'https://viktor-kindrat.github.io/Guess-the-number-game/',
+    viewCode: 'https://github.com/viktor-kindrat/Guess-the-number-game',
     description: `Project-game built with JQuery 🕹
                   JS project game. The goal in this game is to guess as many numbers as possible by the program for a certain time. Depending on the difficulty mode, the amount of time varies. Tips are available depending on the difficulty mode. 🎮`,
     technologies: ['HTML', 'CSS', 'JS', 'JQuery', 'LocalStorage', '4 levels of difficulty', 'Math() JS', '2 languages', 'Custom alerts', 'Animated background', 'Hints']
@@ -59,16 +59,16 @@ let projects = [{
     name: 'What file type is it',
     image: 'https://files.fm/thumb_show.php?i=a4r89888x',
     type: 'github',
-    link: 'https://victor-kindrat.github.io/what-file-type-is-it/',
-    viewCode: 'https://github.com/victor-kindrat/what-file-type-is-it',
+    link: 'https://viktor-kindrat.github.io/what-file-type-is-it/',
+    viewCode: 'https://github.com/viktor-kindrat/what-file-type-is-it',
     description: `Small JS project, file type analyzer. Can recognize more than 100 file extension. Used JS string methods and input type file to get extension.`,
     technologies: ['HTML', 'CSS', 'JS', 'Media query', 'JQuery', 'Animations', 'Custom design', 'File type analyze', 'Input type file']
 }, {
     name: 'Text reader',
     image: 'https://files.fm/thumb_show.php?i=dayefmerw',
     type: 'github',
-    link: 'https://victor-kindrat.github.io/textReader/',
-    viewCode: 'https://github.com/victor-kindrat/textReader',
+    link: 'https://viktor-kindrat.github.io/textReader/',
+    viewCode: 'https://github.com/viktor-kindrat/textReader',
     description: `Text reader which help to read your text faster. To concentrate on the right word, use the middle letter selection. You can also change the reading speed, pause and exit the active session 🚀`,
     technologies: ['HTML', 'CSS', 'JS', 'Custom design', 'Speed changer', '"rer letter"', 'Pause', 'Close', 'Color theme', 'Local storage']
 }, {
@@ -76,15 +76,15 @@ let projects = [{
     image: 'https://fv1-6.failiem.lv/thumb_show.php?i=ga7sjd33q&view',
     type: 'github',
     link: 'https://vkindratapiweather.netlify.app/',
-    viewCode: 'https://github.com/victor-kindrat/APIWeather',
+    viewCode: 'https://github.com/viktor-kindrat/APIWeather',
     description: `Weather forecast application made on openweather API`,
     technologies: ['HTML', 'CSS', 'JS', 'Fetch.API', 'Free geo API', 'JQuery', 'Media query', 'City changeing', 'Adaptive background', 'Custom design', 'Open Weather API']
 }, {
     name: 'Censor',
     image: 'https://files.fm/thumb_show.php?i=h6bwd3w4g',
     type: 'github',
-    link: 'https://victor-kindrat.github.io/Cenzor/',
-    viewCode: 'https://github.com/victor-kindrat/Cenzor',
+    link: 'https://viktor-kindrat.github.io/Cenzor/',
+    viewCode: 'https://github.com/viktor-kindrat/Cenzor',
     description: `Online text censor project. Input your word, paste your text, click the button and watch the magic ✨`,
     technologies: ['HTML', 'CSS', 'JS', 'UA language', 'Multi page', 'JQuery', 'Animations']
 }, {
@@ -92,7 +92,7 @@ let projects = [{
     image: 'https://files.fm/thumb_show.php?i=bx2hjfucz',
     type: 'github',
     link: 'https://foodore-switcher.netlify.app/',
-    viewCode: 'https://github.com/victor-kindrat/Foodore',
+    viewCode: 'https://github.com/viktor-kindrat/Foodore',
     description: `Custom plate switcher. JS project. Make an order by spinning a plate.`,
     technologies: ['HTML', 'CSS', 'JS', 'JQuery', 'Adaptivity', 'Bootstrap', 'Tray', 'Custom scrollbar', 'Custom design']
 }];
@@ -105,8 +105,8 @@ let counter = {
     designs: 0,
     pages: 0
 }
-for (let i = 0; i!==projects.length; i++) {
-    if(projects[i].type === 'figma') {
+for (let i = 0; i !== projects.length; i++) {
+    if (projects[i].type === 'figma') {
         designCount++;
     } else if (projects[i].type === 'github') {
         pagesCount++;
@@ -115,15 +115,15 @@ for (let i = 0; i!==projects.length; i++) {
 
 for (let i = 0; i !== projects.length; i++) {
     $('.projects__place').append(`<div class="projects__item projects__item${i} projects__item_${projects[i].type}">\n` +
-                                        `<button class="projects__view-btn projects__view-btn${i}">View</button>\n` +
-                                 `</div>`);
+        `<button class="projects__view-btn projects__view-btn${i}">View</button>\n` +
+        `</div>`);
     $('.projects__item' + i).css({
         'background': '#eeeeee url("' + projects[i].image + '") no-repeat center 0%',
         'backgroundSize': 'cover'
     })
 }
 
-$('#projects__radio_all').click(function () {
+$('#projects__radio_all').click(function() {
     $('.projects__place').html('');
     for (let j = 0; j !== projects.length; j++) {
         $('.projects__place').append(`<div class="projects__item projects__item${j} projects__item_${projects[j].type}">\n` +
@@ -134,7 +134,7 @@ $('#projects__radio_all').click(function () {
             'backgroundSize': 'cover'
         })
     }
-    $(".projects__item").mouseover(function () {
+    $(".projects__item").mouseover(function() {
         $(this).css({
             'filter': 'grayscale(0)'
         })
@@ -144,7 +144,7 @@ $('#projects__radio_all').click(function () {
         console.log('enter')
     })
 
-    $('.projects__item').mouseout(function () {
+    $('.projects__item').mouseout(function() {
         $(this).css({
             'filter': 'grayscale(0.8)'
         })
@@ -152,7 +152,7 @@ $('#projects__radio_all').click(function () {
             'opacity': '0'
         })
     })
-    $('.projects__view-btn').click(function () {
+    $('.projects__view-btn').click(function() {
         let classes = $(this).attr('class');
         let index = classes.slice(classes.lastIndexOf('_view-btn') + 9, classes.length);
         $('.info').fadeIn(300);
@@ -174,7 +174,7 @@ $('#projects__radio_all').click(function () {
     })
 });
 
-$('#projects__radio_pages').click(function () {
+$('#projects__radio_pages').click(function() {
     $('.projects__place').html('');
     for (let j = 0; j !== projects.length; j++) {
         if (projects[j].type === 'github') {
@@ -187,7 +187,7 @@ $('#projects__radio_pages').click(function () {
             })
         }
     }
-    $(".projects__item").mouseover(function () {
+    $(".projects__item").mouseover(function() {
         $(this).css({
             'filter': 'grayscale(0)'
         })
@@ -197,7 +197,7 @@ $('#projects__radio_pages').click(function () {
         console.log('enter')
     })
 
-    $('.projects__item').mouseout(function () {
+    $('.projects__item').mouseout(function() {
         $(this).css({
             'filter': 'grayscale(0.8)'
         })
@@ -205,7 +205,7 @@ $('#projects__radio_pages').click(function () {
             'opacity': '0'
         })
     })
-    $('.projects__view-btn').click(function () {
+    $('.projects__view-btn').click(function() {
         let classes = $(this).attr('class');
         let index = classes.slice(classes.lastIndexOf('_view-btn') + 9, classes.length);
         $('.info').fadeIn(300);
@@ -226,7 +226,7 @@ $('#projects__radio_pages').click(function () {
         })
     })
 })
-$('#projects__radio_designs').click(function () {
+$('#projects__radio_designs').click(function() {
     $('.projects__place').html('');
     for (let j = 0; j !== projects.length; j++) {
         if (projects[j].type === 'figma') {
@@ -239,7 +239,7 @@ $('#projects__radio_designs').click(function () {
             })
         }
     }
-    $(".projects__item").mouseover(function () {
+    $(".projects__item").mouseover(function() {
         $(this).css({
             'filter': 'grayscale(0)'
         })
@@ -249,7 +249,7 @@ $('#projects__radio_designs').click(function () {
         console.log('enter')
     })
 
-    $('.projects__item').mouseout(function () {
+    $('.projects__item').mouseout(function() {
         $(this).css({
             'filter': 'grayscale(0.8)'
         })
@@ -257,7 +257,7 @@ $('#projects__radio_designs').click(function () {
             'opacity': '0'
         })
     })
-    $('.projects__view-btn').click(function () {
+    $('.projects__view-btn').click(function() {
         let classes = $(this).attr('class');
         let index = classes.slice(classes.lastIndexOf('_view-btn') + 9, classes.length);
         $('.info').fadeIn(300);
@@ -282,8 +282,8 @@ $('#projects__radio_designs').click(function () {
 $('.info').fadeOut(0)
 
 function fillMySkills(count) {
-    for (let i = 1; i!== count + 1; i++) {
-        $('.main__iKnow-container').append('<div class="main__iKnow-item main__iKnow-item'+i+'"></div>');
+    for (let i = 1; i !== count + 1; i++) {
+        $('.main__iKnow-container').append('<div class="main__iKnow-item main__iKnow-item' + i + '"></div>');
         $('.main__iKnow-item' + i).css({
             'background': '#5534A5 url("./images/day/main/iknow/' + i + '.svg") no-repeat center',
             'backgroundSize': 'calc(100% - 30px) calc(100% - 70px)'
@@ -308,8 +308,8 @@ function switchPage(page) {
             $('.contacts').css('display', 'none');
             break;
         case 'projects':
-            setTimeout(function (){
-                let x = setInterval(function () {
+            setTimeout(function() {
+                let x = setInterval(function() {
                     if (counter.all !== projectsCount + 1) {
                         $('#project__counter_projects').text(counter.all)
                         counter.all++;
@@ -319,7 +319,7 @@ function switchPage(page) {
                     }
                 }, 200);
 
-                let y = setInterval(function () {
+                let y = setInterval(function() {
                     if (counter.designs !== designCount + 1) {
                         $('#project__counter_designs').text(counter.designs)
                         counter.designs++;
@@ -329,7 +329,7 @@ function switchPage(page) {
                     }
                 }, 200);
 
-                let z = setInterval(function () {
+                let z = setInterval(function() {
                     if (counter.pages !== pagesCount + 1) {
                         $('#project__counter_pages').text(counter.pages)
                         counter.pages++;
@@ -364,18 +364,18 @@ function switchPage(page) {
     }
 }
 
-$('#menu__open-nav').click(function () {
+$('#menu__open-nav').click(function() {
     $('#nav').css('left', '0');
     $('#content-wrapper').css('left', '-100vw');
     $('.main__me').css('left', '-100vw');
 })
-$('.nav__item').click(function () {
+$('.nav__item').click(function() {
     $('#nav').css('left', '100vw');
     $('#content-wrapper').css('left', '0');
     $('.main__me').css('left', '-190px');
 })
 
-$('#projects__filter-btn').click(function () {
+$('#projects__filter-btn').click(function() {
     if (filterBtnStatus === 'disabled') {
         filterBtnStatus = 'enabled'
     } else if (filterBtnStatus === 'enabled') {
@@ -384,7 +384,7 @@ $('#projects__filter-btn').click(function () {
     $('.projects__filter-group').attr('class', 'projects__filter-group projects__filter-group_' + filterBtnStatus);
 });
 
-$(".projects__item").mouseover(function () {
+$(".projects__item").mouseover(function() {
     $(this).css({
         'filter': 'grayscale(0)'
     })
@@ -394,7 +394,7 @@ $(".projects__item").mouseover(function () {
     console.log('enter')
 })
 
-$('.projects__item').mouseout(function () {
+$('.projects__item').mouseout(function() {
     $(this).css({
         'filter': 'grayscale(0.8)'
     })
@@ -403,67 +403,67 @@ $('.projects__item').mouseout(function () {
     })
 })
 
-$('#nav__item_main').click(function () {
+$('#nav__item_main').click(function() {
     switchPage('main');
 })
-$('#nav__item_projects').click(function () {
+$('#nav__item_projects').click(function() {
     switchPage('projects');
 })
-$('#nav__item_contact').click(function () {
+$('#nav__item_contact').click(function() {
     switchPage('contacts');
 })
 
-$('.menu__btn1').click(function () {
+$('.menu__btn1').click(function() {
     $('.page').css('right', '100vw');
-    setTimeout(function () {
+    setTimeout(function() {
         window.scrollTo(0, 0)
         $('.page').css('right', '0');
         switchPage('main');
     }, 500)
 })
-$('.menu__btn2').click(function () {
+$('.menu__btn2').click(function() {
     $('.page').css('right', '100vw');
-    setTimeout(function () {
+    setTimeout(function() {
         window.scrollTo(0, 0)
         $('.page').css('right', '0');
         switchPage('projects');
     }, 500)
 })
-$('.menu__btn3').click(function () {
+$('.menu__btn3').click(function() {
     $('.page').css('right', '100vw');
-    setTimeout(function () {
+    setTimeout(function() {
         window.scrollTo(0, 0)
         $('.page').css('right', '0');
         switchPage('contacts');
     }, 500)
 })
 
-$('#footer__nav-item1').click(function () {
+$('#footer__nav-item1').click(function() {
     $('.page').css('right', '100vw');
-    setTimeout(function () {
+    setTimeout(function() {
         window.scrollTo(0, 0)
         $('.page').css('right', '0');
         switchPage('main');
     }, 500)
 })
-$('#footer__nav-item2').click(function () {
+$('#footer__nav-item2').click(function() {
     $('.page').css('right', '100vw');
-    setTimeout(function () {
+    setTimeout(function() {
         window.scrollTo(0, 0)
         $('.page').css('right', '0');
         switchPage('projects');
     }, 500)
 })
-$('#footer__nav-item3').click(function () {
+$('#footer__nav-item3').click(function() {
     $('.page').css('right', '100vw');
-    setTimeout(function () {
+    setTimeout(function() {
         window.scrollTo(0, 0)
         $('.page').css('right', '0');
         switchPage('contacts');
     }, 500)
 })
 
-$('.projects__view-btn').click(function () {
+$('.projects__view-btn').click(function() {
     let classes = $(this).attr('class');
     let index = classes.slice(classes.lastIndexOf('_view-btn') + 9, classes.length);
     $('.info').fadeIn(300);
@@ -484,12 +484,12 @@ $('.projects__view-btn').click(function () {
     })
 })
 
-$('.info__close').click(function (){
+$('.info__close').click(function() {
     $('.info').fadeOut(300);
 })
 
-$('.nav__tumbler').click(function () {
-    if (theme === 'day'){
+$('.nav__tumbler').click(function() {
+    if (theme === 'day') {
         theme = 'night'
         $('.main__iKnow-item').css({
             'backgroundColor': '#3E2C41'

@@ -1,205 +1,208 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Victor Kindrat</title>
+    <title>Viktor Kindrat</title>
     <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-<div class="wrapper wrapper_day">
-    <div class="page">
-        <main class="content-wrapper" id="content-wrapper">
-            <header class="header">
-                <p class="header__text">V.Kindrat</p>
-            </header>
-            <section class="main">
-                <div class="main__welcome">
-                    <div class="main__txt">
-                        <h1 class="main__headline">
-                            Hello! <span class="main__wave"></span><br>
-                            I'm <span class="main__changer"></span>
-                        </h1>
-                        <div class="main__social-medias">
-                            <a href="https://instagram.com/victor_kindrat?utm_medium=copy_link" target="_blank" class="main__link main__link1"></a>
-                            <a href="https://web.telegram.org/#/im?p=@vegeran" target="_blank" class="main__link main__link2"></a>
-                            <a href="https://github.com/victor-kindrat" target="_blank" class="main__link main__link3"></a>
+    <div class="wrapper wrapper_day">
+        <div class="page">
+            <main class="content-wrapper" id="content-wrapper">
+                <header class="header">
+                    <p class="header__text">V.Kindrat</p>
+                </header>
+                <section class="main">
+                    <div class="main__welcome">
+                        <div class="main__txt">
+                            <h1 class="main__headline">
+                                Hello! <span class="main__wave"></span><br> I'm <span class="main__changer"></span>
+                            </h1>
+                            <div class="main__social-medias">
+                                <a href="https://instagram.com/victor_kindrat?utm_medium=copy_link" target="_blank" class="main__link main__link1"></a>
+                                <a href="https://web.telegram.org/#/im?p=@vegeran" target="_blank" class="main__link main__link2"></a>
+                                <a href="https://github.com/viktor-kindrat" target="_blank" class="main__link main__link3"></a>
+                            </div>
+                        </div>
+                        <div class="main__me"></div>
+                    </div>
+                    <div class="main__about-me">
+                        <h2 class="main__headline_2">About me</h2>
+                        <p class="main__text">
+                            I am a seventeen year old web developer located in Ukraine 🇺🇦. I started my career in web development by studying at the Creator IT Academy. I started my way in IT only in 2021, but I already have a number of projects that are worth noting. These are
+                            both HTML / CSS-only web design projects and JS-based projects.
+                        </p>
+                    </div>
+                    <div class="main__iKnow">
+                        <h2 class="main__headline_2 main__headline_2-purple">I know this</h2>
+                        <div class="main__iKnow-container">
+
                         </div>
                     </div>
-                    <div class="main__me"></div>
-                </div>
-                <div class="main__about-me">
-                    <h2 class="main__headline_2">About me</h2>
-                    <p class="main__text">
-                        I am a seventeen year old web developer located in Ukraine 🇺🇦. I started my career in web development by studying at the Creator IT Academy. I started my way in IT only in 2021, but I already have a number of projects that are worth noting. These are both HTML / CSS-only web design projects and JS-based projects.
-                    </p>
-                </div>
-                <div class="main__iKnow">
-                    <h2 class="main__headline_2 main__headline_2-purple">I know this</h2>
-                    <div class="main__iKnow-container">
-
+                </section>
+                <section class="projects">
+                    <h2 class="projects__headline_2 projects__headline_2-purple">My projects</h2>
+                    <div class="projects__row">
+                        <div class="projects__text-group">
+                            <div class="projects__counter" id="project__counter_projects">0</div>
+                            <div class="projects__title">Projects</div>
+                        </div>
+                        <div class="projects__text-group">
+                            <div class="projects__counter" id="project__counter_designs">0</div>
+                            <div class="projects__title">Designs</div>
+                        </div>
+                        <div class="projects__text-group">
+                            <div class="projects__counter" id="project__counter_pages">0</div>
+                            <div class="projects__title">Web pages</div>
+                        </div>
                     </div>
-                </div>
-            </section>
-            <section class="projects">
-                <h2 class="projects__headline_2 projects__headline_2-purple">My projects</h2>
-                <div class="projects__row">
-                    <div class="projects__text-group">
-                        <div class="projects__counter" id="project__counter_projects">0</div>
-                        <div class="projects__title">Projects</div>
-                    </div>
-                    <div class="projects__text-group">
-                        <div class="projects__counter" id="project__counter_designs">0</div>
-                        <div class="projects__title">Designs</div>
-                    </div>
-                    <div class="projects__text-group">
-                        <div class="projects__counter" id="project__counter_pages">0</div>
-                        <div class="projects__title">Web pages</div>
-                    </div>
-                </div>
-                <div class="projects__filter-group projects__filter-group_disabled">
-                    <button class="projects__filter-btn" id="projects__filter-btn">Filter</button>
-                    <div class="projects__filter-open">
-                        <label class="projects__select-item">
+                    <div class="projects__filter-group projects__filter-group_disabled">
+                        <button class="projects__filter-btn" id="projects__filter-btn">Filter</button>
+                        <div class="projects__filter-open">
+                            <label class="projects__select-item">
                             <input type="radio" checked name="projects__radio" class="projects__radio" id="projects__radio_all">
                             Show all
                         </label>
-                        <label class="projects__select-item">
+                            <label class="projects__select-item">
                             <input type="radio" name="projects__radio" class="projects__radio" id="projects__radio_pages">
                             Web pages
                         </label>
-                        <label class="projects__select-item">
+                            <label class="projects__select-item">
                             <input type="radio" name="projects__radio" class="projects__radio" id="projects__radio_designs">
                             Designs
                         </label>
+                        </div>
                     </div>
-                </div>
-                <div class="projects__place">
-<!--                    project place -->
-                </div>
-                <div class="info info_github">
-                    <div class="info__image"></div>
-                    <div class="info__content">
-                        <div class="info__info">
-                            <div class="info__row">
-                                <h2 class="info__headline" id="info__headline_name">Name of the project</h2>
-                                <div class="info__close">
-                                    <div class="info__dash"></div>
-                                    <div class="info__dash"></div>
+                    <div class="projects__place">
+                        <!--                    project place -->
+                    </div>
+                    <div class="info info_github">
+                        <div class="info__image"></div>
+                        <div class="info__content">
+                            <div class="info__info">
+                                <div class="info__row">
+                                    <h2 class="info__headline" id="info__headline_name">Name of the project</h2>
+                                    <div class="info__close">
+                                        <div class="info__dash"></div>
+                                        <div class="info__dash"></div>
+                                    </div>
                                 </div>
+                                <p class="info__text" id="info__text_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusantium debitis dignissimos earum enim error ex hic ipsam, libero maxime minima, molestias nemo nisi obcaecati quas quibusdam sint voluptatibus voluptatum.</p>
+                                <h3 class="info__headline info__headline_3">I used this:</h3>
+                                <ul class="info__list">
+                                    <li class="info__list-item">lorem</li>
+                                    <li class="info__list-item">lorem</li>
+                                    <li class="info__list-item">lorem</li>
+                                    <li class="info__list-item">lorem</li>
+                                    <li class="info__list-item">lorem</li>
+                                    <li class="info__list-item">lorem</li>
+                                    <li class="info__list-item">lorem</li>
+                                    <li class="info__list-item">lorem</li>
+                                    <li class="info__list-item">lorem</li>
+                                    <li class="info__list-item">lorem</li>
+                                    <li class="info__list-item">lorem</li>
+                                    <li class="info__list-item">lorem</li>
+                                    <li class="info__list-item">lorem</li>
+                                    <li class="info__list-item">lorem</li>
+                                    <li class="info__list-item">lorem</li>
+                                </ul>
                             </div>
-                            <p class="info__text" id="info__text_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusantium debitis dignissimos earum enim error ex hic ipsam, libero maxime minima, molestias nemo nisi obcaecati quas quibusdam sint voluptatibus voluptatum.</p>
-                            <h3 class="info__headline info__headline_3">I used this:</h3>
-                            <ul class="info__list">
-                                <li class="info__list-item">lorem</li>
-                                <li class="info__list-item">lorem</li>
-                                <li class="info__list-item">lorem</li>
-                                <li class="info__list-item">lorem</li>
-                                <li class="info__list-item">lorem</li>
-                                <li class="info__list-item">lorem</li>
-                                <li class="info__list-item">lorem</li>
-                                <li class="info__list-item">lorem</li>
-                                <li class="info__list-item">lorem</li>
-                                <li class="info__list-item">lorem</li>
-                                <li class="info__list-item">lorem</li>
-                                <li class="info__list-item">lorem</li>
-                                <li class="info__list-item">lorem</li>
-                                <li class="info__list-item">lorem</li>
-                                <li class="info__list-item">lorem</li>
-                            </ul>
-                        </div>
-                        <div class="info__btn-place">
-                            <a target="_blank" href="#" class="info__btn info__btn_view">View code</a>
-                            <a target="_blank" href="#" class="info__btn info__btn_open">Open</a>
+                            <div class="info__btn-place">
+                                <a target="_blank" href="#" class="info__btn info__btn_view">View code</a>
+                                <a target="_blank" href="#" class="info__btn info__btn_open">Open</a>
+                            </div>
                         </div>
                     </div>
+                </section>
+                <section class="contacts">
+                    <div class="contacts__headline_2">Contact me</div>
+                    <div class="contacts__column">
+                        <div class="contacts__row">
+                            <a target="_blank" href="mailto:kindratvictor07@gmail.com" class="contacts__item">
+                                <div class="contacts__name">Write an email</div>
+                                <div class="contacts__data">kindratvictor07@gmail.com</div>
+                            </a>
+                            <a target="_blank" href="https://web.telegram.org/#/im?p=@vegeran" class="contacts__item">
+                                <div class="contacts__name">Telegram message</div>
+                                <div class="contacts__data">@Vegeran</div>
+                            </a>
+                        </div>
+                        <div class="contacts__row">
+                            <a target="_blank" href="https://www.linkedin.com/in/viktor-kindrat/" class="contacts__item">
+                                <div class="contacts__name">LinkedIn</div>
+                                <div class="contacts__data">@victor-kindrat</div>
+                            </a>
+                            <a target="_blank" href="tel:+380980240265" class="contacts__item">
+                                <div class="contacts__name">Mobile call</div>
+                                <div class="contacts__data">+380 (98) *** **65</div>
+                            </a>
+                        </div>
+                        <div class="contacts__row">
+                            <a target="_blank" href="https://instagram.com/victor_kindrat?utm_medium=copy_link" class="contacts__item">
+                                <div class="contacts__name">Instagram direct</div>
+                                <div class="contacts__data">@victor-kindrat</div>
+                            </a>
+                        </div>
+                    </div>
+                </section>
+            </main>
+            <footer class="footer">
+                <div class="footer__left">
+                    <nav class="footer__nav">
+                        <button id="footer__nav-item1" class="footer__nav-item footer__nav-item_active">Main</button>
+                        <button id="footer__nav-item2" class="footer__nav-item">Projects</button>
+                        <button id="footer__nav-item3" class="footer__nav-item">Contact me</button>
+                    </nav>
                 </div>
-            </section>
-            <section class="contacts">
-                <div class="contacts__headline_2">Contact me</div>
-                <div class="contacts__column">
-                    <div class="contacts__row">
-                        <a target="_blank" href="mailto:kindratvictor07@gmail.com" class="contacts__item">
-                            <div class="contacts__name">Write an email</div>
-                            <div class="contacts__data">kindratvictor07@gmail.com</div>
-                        </a>
-                        <a target="_blank" href="https://web.telegram.org/#/im?p=@vegeran" class="contacts__item">
-                            <div class="contacts__name">Telegram message</div>
-                            <div class="contacts__data">@Vegeran</div>
-                        </a>
-                    </div>
-                    <div class="contacts__row">
-                        <a target="_blank" href="https://www.linkedin.com/in/viktor-kindrat/" class="contacts__item">
-                            <div class="contacts__name">LinkedIn</div>
-                            <div class="contacts__data">@victor-kindrat</div>
-                        </a>
-                        <a target="_blank" href="tel:+380980240265" class="contacts__item">
-                            <div class="contacts__name">Mobile call</div>
-                            <div class="contacts__data">+380 (98) *** **65</div>
-                        </a>
-                    </div>
-                    <div class="contacts__row">
-                        <a target="_blank" href="https://instagram.com/victor_kindrat?utm_medium=copy_link" class="contacts__item">
-                            <div class="contacts__name">Instagram direct</div>
-                            <div class="contacts__data">@victor-kindrat</div>
-                        </a>
-                    </div>
+                <div class="footer__copy">
+                    Copyright 2022
                 </div>
-            </section>
-        </main>
-        <footer class="footer">
-            <div class="footer__left">
-                <nav class="footer__nav">
-                    <button id="footer__nav-item1" class="footer__nav-item footer__nav-item_active">Main</button>
-                    <button id="footer__nav-item2" class="footer__nav-item">Projects</button>
-                    <button id="footer__nav-item3" class="footer__nav-item">Contact me</button>
-                </nav>
-            </div>
-            <div class="footer__copy">
-                Copyright 2022
-            </div>
-        </footer>
-    </div>
-    <nav class="menu">
-        <button class="menu__btn menu__btn0" id="menu__open-nav">
+            </footer>
+        </div>
+        <nav class="menu">
+            <button class="menu__btn menu__btn0" id="menu__open-nav">
             <span class="menu__dash menu__dash1"></span><span class="menu__dash menu__dash2"></span><span
                 class="menu__dash menu__dash3"></span>
         </button>
-        <div class="menu__group">
-            <button class="menu__btn menu__btn_active menu__btn1"></button>
-            <button class="menu__btn menu__btn2"></button>
-            <button class="menu__btn menu__btn3"></button>
-        </div>
-    </nav>
-    <nav class="nav" id="nav">
-        <div class="nav__tumbler">
-            <div class="nav__tumbler-point"></div>
-        </div>
-        <div class="nav__item" id="nav__item_main">Main page</div>
-        <div class="nav__item" id="nav__item_projects">My projects</div>
-        <div class="nav__item" id="nav__item_contact">Contact me</div>
-    </nav>
-</div>
-<script>
-    let options = {
-        strings: ['', 'Victor Kindrat', 'web developer'],
-        typeSpeed: 40,
-        backDelay: 3500,
-        loop: true,
-        loopCount: Infinity,
-        backSpeed: 40
-    };
+            <div class="menu__group">
+                <button class="menu__btn menu__btn_active menu__btn1"></button>
+                <button class="menu__btn menu__btn2"></button>
+                <button class="menu__btn menu__btn3"></button>
+            </div>
+        </nav>
+        <nav class="nav" id="nav">
+            <div class="nav__tumbler">
+                <div class="nav__tumbler-point"></div>
+            </div>
+            <div class="nav__item" id="nav__item_main">Main page</div>
+            <div class="nav__item" id="nav__item_projects">My projects</div>
+            <div class="nav__item" id="nav__item_contact">Contact me</div>
+        </nav>
+    </div>
+    <script>
+        let options = {
+            strings: ['', 'Viktor Kindrat', 'web developer'],
+            typeSpeed: 40,
+            backDelay: 3500,
+            loop: true,
+            loopCount: Infinity,
+            backSpeed: 40
+        };
 
-    let typed = new Typed('.main__changer', options);
-</script>
-<script src="main.js"></script>
+        let typed = new Typed('.main__changer', options);
+    </script>
+    <script src="main.js"></script>
 </body>
+
 </html>
