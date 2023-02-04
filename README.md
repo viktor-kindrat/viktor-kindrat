@@ -21,5 +21,5 @@ I am web developer from Ukraine ![image](https://user-images.githubusercontent.c
   <hr>
   
 ### My GitHub activity:
-[![GitHub Streak](https://streak-stats.demolab.com?user=victor-kindrat&theme=vision-friendly-dark&hide_border=true&border_radius=5.5&background=DD272700&dates=FFFFFF97&fire=B200DD&currStreakNum=B200DD&currStreakLabel=B200DD)](https://git.io/streak-stats)
+[![GitHub Streak](https://streak-stats.demolab.com?user=viktor-kindrat&theme=vision-friendly-dark&hide_border=true&border_radius=5.5&background=DD272700&dates=FFFFFF97&fire=B200DD&currStreakNum=B200DD&currStreakLabel=B200DD)](https://git.io/streak-stats)
 </div>
