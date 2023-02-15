@@ -205,7 +205,7 @@ body {
     -webkit-background-size: contain;
     background-size: contain;
     transition: 0.5s;
-    box-shadow: 0 0 15px #00000025;
+    filter: drop-shadow(0 0 15px #00000025);
 }
 
 .wrapper_night .main__about-me {
