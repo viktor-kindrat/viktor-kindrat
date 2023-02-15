@@ -1,10 +1,10 @@
-<svg width="709" height="821" viewBox="0 0 709 821" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<path d="M688.42 642.323C711.777 798.608 555.829 724.996 401.003 748.135C246.176 771.274 108.627 813.008 85.2697 656.723C61.9127 500.438 358.915 243.616 513.742 220.477C668.569 197.338 665.063 486.037 688.42 642.323Z" fill="#A85CF9"/>
-<mask id="mask0_506_427" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="85" y="36" width="606" height="736">
-<path d="M688.42 642.323C711.777 798.608 555.829 724.996 401.002 748.135C246.176 771.274 108.626 813.008 85.2695 656.723C279 314 0.500226 68.9999 313 43.4999C663 -17.5001 594 349 688.42 642.323Z" fill="#A85CF9"/>
+<svg width="691" height="703" viewBox="0 0 691 703" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<path d="M670.42 524.323C693.777 680.608 537.829 606.996 383.002 630.135C228.175 653.274 90.6262 695.008 67.2692 538.723C43.9122 382.438 340.915 125.616 495.742 102.477C650.568 79.3385 647.063 368.037 670.42 524.323Z" fill="#A85CF9"/>
+<mask id="mask0_506_427" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="67" y="38" width="606" height="616">
+<path d="M670.42 524.323C693.777 680.608 537.829 606.997 383.002 630.136C228.175 653.275 90.6262 695.008 67.2692 538.723C261 196 144.5 56.5002 342.5 38.5C532 54.0001 576 231.001 670.42 524.323Z" fill="#A85CF9"/>
 </mask>
 <g mask="url(#mask0_506_427)">
-<rect x="169" y="147" width="448" height="633" fill="url(#pattern0)"/>
+<rect x="151" y="29" width="448" height="633" fill="url(#pattern0)"/>
 </g>
 <defs>
 <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
