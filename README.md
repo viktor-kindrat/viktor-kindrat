@@ -1,11 +1,18 @@
 <div align="center">
 
-# Welcome to my GitHub ✨👋🏻
+# 🔥 Welcome to my GitHub 🔥
 
 I am web developer from Ukraine ![image](https://user-images.githubusercontent.com/84918090/201474845-932ac61c-7ed3-46f3-a552-7cabddb56eee.png). I started my career in web development by studying at the Creator IT Academy. I started my way in IT only in 2021, but I already have a number of projects that are worth noting. My portfolio includes both HTML / CSS, web design projects and JS-based projects.
 
-[![image](https://user-images.githubusercontent.com/84918090/202282254-ab866011-45f2-4975-860d-937a9a3914a9.png)](https://viktor-kindrat.netlify.app/) &nbsp;&nbsp;
-[![image](https://user-images.githubusercontent.com/84918090/201474739-fc0d75e1-63f4-4b17-bbb0-349885807c0b.png)](https://www.buymeacoffee.com/victorkindrat) &nbsp;&nbsp;
+[![image](https://user-images.githubusercontent.com/84918090/224413008-f7d1d8fb-ff24-4ad4-bd6b-af4930164fd8.png)](https://viktor-kindrat.netlify.app/) &nbsp;&nbsp;
+[![image](https://user-images.githubusercontent.com/84918090/224413102-47a8549b-06a2-413b-a87b-a5b8cbf73fc3.png)](https://www.buymeacoffee.com/victorkindrat) &nbsp;&nbsp;
+
+  
+   <hr>
+  
+### My GitHub activity:
+[![GitHub Streak](https://streak-stats.demolab.com?user=viktor-kindrat&theme=vision-friendly-dark&hide_border=true&border_radius=5.5&background=DD272700&dates=FFFFFF97&fire=B200DD&currStreakNum=B200DD&currStreakLabel=B200DD)](https://git.io/streak-stats)
+
 
   <hr>
   
@@ -18,8 +25,4 @@ I am web developer from Ukraine ![image](https://user-images.githubusercontent.c
   &nbsp;
   
   
-  <hr>
-  
-### My GitHub activity:
-[![GitHub Streak](https://streak-stats.demolab.com?user=viktor-kindrat&theme=vision-friendly-dark&hide_border=true&border_radius=5.5&background=DD272700&dates=FFFFFF97&fire=B200DD&currStreakNum=B200DD&currStreakLabel=B200DD)](https://git.io/streak-stats)
-</div>
+  </div>
