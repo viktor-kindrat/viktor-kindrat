@@ -11,7 +11,7 @@ I am web developer from Ukraine ![image](https://user-images.githubusercontent.c
    <hr>
   
 ### My GitHub activity:
-[![GitHub Streak](https://streak-stats.demolab.com?user=viktor-kindrat&theme=dark&background=EB545400&currStreakNum=8B104E&currStreakLabel=FF1D8F&fire=FF1D8F&ring=8B104E)](https://git.io/streak-stats)
+[![GitHub Streak](https://streak-stats.demolab.com?user=viktor-kindrat&theme=dark&background=EB545400&currStreakNum=8B104E&currStreakLabel=FF1D8F&fire=FF1D8F&ring=8B104E&border=EB545400)](https://git.io/streak-stats)
 
 
 
