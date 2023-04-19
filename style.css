@@ -192,16 +192,10 @@ body {
     margin-right: 0;
 }
 
-.wrapper_night .main__me {
-    background: url("./images/night/main/figure.svg") no-repeat 100% center;
-    -webkit-background-size: contain;
-    background-size: contain;
-}
-
 .main__me {
     width: 50%;
     height: calc(100vh - 200px);
-    background: url("./images/day/main/figure.svg") no-repeat 100% center;
+    background: url("./images/universal/main/me.png") no-repeat 100% center;
     -webkit-background-size: contain;
     background-size: contain;
     transition: 0.5s;
