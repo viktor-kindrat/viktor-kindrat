@@ -4,7 +4,7 @@
 
 I am web developer from Ukraine ![image](https://user-images.githubusercontent.com/84918090/201474845-932ac61c-7ed3-46f3-a552-7cabddb56eee.png). I started my career in web development by studying at the Creator IT Academy. I started my way in IT only in 2021, but I already have a number of projects that are worth noting. My portfolio includes both HTML / CSS, web design projects and JS-based projects.
 
-[![image](https://user-images.githubusercontent.com/84918090/224413008-f7d1d8fb-ff24-4ad4-bd6b-af4930164fd8.png)](https://viktor-k.netlify.app/) &nbsp;&nbsp;
+[![image](https://user-images.githubusercontent.com/84918090/224413008-f7d1d8fb-ff24-4ad4-bd6b-af4930164fd8.png)](https://kindrat.pp.ua) &nbsp;&nbsp;
 [![image](https://user-images.githubusercontent.com/84918090/224413102-47a8549b-06a2-413b-a87b-a5b8cbf73fc3.png)](https://www.buymeacoffee.com/victorkindrat) &nbsp;&nbsp;
 
   
