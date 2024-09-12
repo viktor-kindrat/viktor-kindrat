@@ -1,3 +1,5 @@
+[![Viktor Kindrat profile views](https://u8views.com/api/v1/github/profiles/84918090/views/day-week-month-total-count.svg)](https://u8views.com/github/viktor-kindrat)
+
 Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif)My name is Viktor
 ==============================================================================================================================
 
