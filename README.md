@@ -1,9 +1,7 @@
 <h1 align="center">Hi 👋, I'm Viktor Kindrat</h1>
 <h3 align="center">A passionate software developer from Ukraine</h3>
 
-- 🔭 I’m currently working in [ValsyDev](https://www.valsydev.com/)
-
-- 🤝 I’m looking for help with [Briif.ai project](https://github.com/Train-of-thoughts/briif-ai-frontend)
+- 🔭 I’m currently working in [Kevych Solutions](https://kevychsolutions.com)
 
 - 👨‍💻 All of my projects are available at [https://viktor-k.netlify.app/](https://viktor-k.netlify.app/)
 
